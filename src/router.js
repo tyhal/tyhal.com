@@ -14,7 +14,7 @@ class TyHalRouter extends Component {
             <Router onUpdate={() => window.scrollTo(0, 0)} history={browserHistory}>
                 <Route path='/' component={Root}>
                     <IndexRoute component={Main} />
-                    <Route path='terriyaki' component={Teriyaki}/>
+                    <Route path='teriyaki' component={Teriyaki}/>
                     <Route path={'jsonresume'} component={JsonResume}/>
                     <Route path='*' component={NotFound}/>
                 </Route>

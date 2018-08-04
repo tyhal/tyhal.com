@@ -8,8 +8,6 @@ import {
     NavItem,
 } from 'reactstrap';
 
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-
 class NavBar extends React.Component {
     render() {
         return (
@@ -23,7 +21,7 @@ class NavBar extends React.Component {
                             <Button color="light"><Link to="/jsonresume">JSON Resume</Link></Button>
                         </NavItem>
                         <NavItem>
-                            <Button color="light"><Link to="/terriyaki">Teriyaki Chicken</Link></Button>
+                            <Button color="light"><Link to="/teriyaki">Teriyaki Chicken</Link></Button>
                         </NavItem>
                     </Nav>
                 </Navbar>

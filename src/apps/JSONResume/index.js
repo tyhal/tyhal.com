@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
-import {Card} from "reactstrap";
+import {CardText} from "reactstrap";
 
 // app component
 class JsonResume extends Component {
     // render
     render () {
-        return (<Card>https://jsonresume.org/</Card>)
+        return (<CardText>https://jsonresume.org/</CardText>)
     }
 }
 
