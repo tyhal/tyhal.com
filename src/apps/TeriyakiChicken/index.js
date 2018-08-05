@@ -1,6 +1,8 @@
 import React, {Component} from 'react'
 import {Card, CardBody, CardImg, CardText, ListGroup, ListGroupItem} from "reactstrap";
 
+// TODO Make this template driven with a Recipe component
+
 // app component
 class Teriyaki extends Component {
     // render

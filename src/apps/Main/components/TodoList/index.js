@@ -16,13 +16,12 @@ class TodoList extends React.Component {
 
         return (
             <div>
+                <div className="text-center">this page is in construction</div>
                 <div className="text-center">{percentdone}%</div>
                 <Progress multi>
                     <Progress bar value={percentdone}/>
                     <Progress bar color="danger" value={100 - percentdone}/>
                 </Progress>
-                <div className="text-center">-</div>
-                <div className="text-center">this is in construction</div>
 
                 <ListGroup>
                     {Object.keys(todolist).map(item =>

@@ -7,7 +7,7 @@ class NavBar extends React.Component {
             <div className="row" style={{"marginTop": 20}}>
                 <Card className="col-md-6" style={{textAlign: "left"}}>
                     <CardText>
-                        <a href="http://tyhal.com">Tyler Hale</a>
+                        <a href={this.props.website}>{this.props.name}</a>
                         <span>&copy; 2018.</span>
                     </CardText>
                 </Card>
