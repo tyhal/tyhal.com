@@ -1,21 +1,22 @@
-
 import * as React from 'react';
+import {Card, CardText} from "reactstrap";
 
 class NavBar extends React.Component {
     render() {
         return (
-            <div className="row">
-                <div className="col-md-4" style={{textAlign: "left"}}>
-                    <a href="http://tyhal.com">Tyler Hale</a>
-                    <span>&copy; 2018.</span>
-                </div>
-                <div className="col-md-4" style={{textAlign: "center"}}>
-                    -
-                </div>
-                <div className="col-md-4" style={{textAlign: "right"}}>
-                    <span>Powered by</span>
-                    <a href="https://garden-place-noodle-bar.business.site/"> Spicy Dumplings</a>
-                </div>
+            <div className="row" style={{"marginTop": 20}}>
+                <Card className="col-md-6" style={{textAlign: "left"}}>
+                    <CardText>
+                        <a href="http://tyhal.com">Tyler Hale</a>
+                        <span>&copy; 2018.</span>
+                    </CardText>
+                </Card>
+                <Card className="col-md-6" style={{textAlign: "right"}}>
+                    <CardText>
+                        <span>Powered by</span>
+                        <a href="https://garden-place-noodle-bar.business.site/"> Spicy Dumplings</a>
+                    </CardText>
+                </Card>
             </div>
         );
     }

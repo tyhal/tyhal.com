@@ -1,11 +1,17 @@
 import React, { Component } from 'react'
 import {CardText} from "reactstrap";
+import ReactJson from 'react-json-view'
 
-// app component
+const my_json_object =
+
 class JsonResume extends Component {
     // render
     render () {
-        return (<CardText>https://jsonresume.org/</CardText>)
+        return (<CardText>
+            <ReactJson src={my_json_object} />
+
+            https://jsonresume.org/
+        </CardText>)
     }
 }
 
