@@ -1,41 +1,39 @@
-import * as React from 'react';
-import {ListGroup, ListGroupItem, Progress} from "reactstrap";
-
+import * as React from 'react'
+import { ListGroup, ListGroupItem, Progress } from 'reactstrap'
 
 class TodoList extends React.Component {
-    render() {
+  render () {
+    const todolist = this.props.todolist
+    const estimate = Math.max(this.props.total, Object.keys(todolist).length)
 
-        const todolist = this.props.todolist
-        const estimate = Math.max(this.props.total, Object.keys(todolist).length)
+    const missingList = Array.apply(null, { length: estimate - Object.keys(todolist).length }).map(Number.call, Number)
 
-        const missing_list = Array.apply(null, {length: estimate - Object.keys(todolist).length}).map(Number.call, Number)
+    const percentdone = (Object.keys(todolist)
+      .filter(x => todolist[x])
+      .length / estimate) * 100
 
-        const percentdone = (Object.keys(todolist)
-            .filter(x => todolist[x])
-            .length / estimate) * 100
+    return (
+      <div>
+        <div className='text-center'>this page is in construction</div>
+        <div className='text-center'>{percentdone}%</div>
+        <Progress multi>
+          <Progress bar color='success' value={percentdone} />
+          <Progress bar color='danger' value={100 - percentdone} />
+        </Progress>
 
-        return (
-            <div>
-                <div className="text-center">this page is in construction</div>
-                <div className="text-center">{percentdone}%</div>
-                <Progress multi>
-                    <Progress bar value={percentdone}/>
-                    <Progress bar color="danger" value={100 - percentdone}/>
-                </Progress>
-
-                <ListGroup>
-                    {Object.keys(todolist).map(item =>
-                        <ListGroupItem key={item} color={(todolist[item]) ? "success" : "default"}>
-                            {((todolist[item]) ? "o - " : "x - ") + item}
-                        </ListGroupItem>)}
-                    {missing_list.map(
-                        key => <ListGroupItem key={key} color="danger">
+        <ListGroup>
+          {Object.keys(todolist).map(item =>
+            <ListGroupItem key={item} color={(todolist[item]) ? 'success' : 'default'}>
+              {((todolist[item]) ? 'o - ' : 'x - ') + item}
+            </ListGroupItem>)}
+          {missingList.map(
+            key => <ListGroupItem key={key} color='danger'>
                             x - todo
-                        </ListGroupItem>)}
-                </ListGroup>
-            </div>
-        );
-    }
+            </ListGroupItem>)}
+        </ListGroup>
+      </div>
+    )
+  }
 }
 
-export default TodoList;
+export default TodoList

@@ -314,3 +314,5 @@ fabric.properties
 src/gencss
 
 build/
+
+ngot.yml

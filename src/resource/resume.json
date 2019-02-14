@@ -1,110 +1,103 @@
 {
+  "awards": [
+    {
+      "awarder": "Professor Geoff Holmes",
+      "date": "2014-11-01",
+      "summary": "",
+      "title": "2014 Computer Science Scholarship"
+    }
+  ],
   "basics": {
-    "name": "Tyler W Hale",
-    "label": "Co Founder NYRIAD™ Limited",
-    "picture": "https://render.bitstrips.com/v2/cpanel/e4f91d37-026a-44d0-91ea-b26cfdaa34a7-2b3e9ea9-00a9-46eb-a2a4-78a44de4f18a-v1.png?transparent=1&palette=1",
     "email": "t.w.hale32@gmail.com",
-    "phone": "",
-    "website": "http://tyhal.com",
-    "summary": "Working in the Computer Software Industry. Skilled in Agile Methodologies, DataScience Stacks, DevOps, Multiple Languages, and Linux. Constantly trying to get my foot in every door to gain a bigger perspective.",
+    "label": "Co Founder NYRIAD™ Limited",
     "location": {
       "address": "",
-      "postalCode": "",
       "city": "Hamilton",
       "countryCode": "NZ",
+      "postalCode": "",
       "region": "Waikato"
     },
+    "name": "Tyler W Hale",
+    "phone": "",
+    "picture": "https://render.bitstrips.com/v2/cpanel/e4f91d37-026a-44d0-91ea-b26cfdaa34a7-2b3e9ea9-00a9-46eb-a2a4-78a44de4f18a-v1.png?transparent=1&palette=1",
     "profiles": [
       {
         "network": "Linkedin",
-        "username": "tylerhaleprofile",
-        "url": "https://www.linkedin.com/in/tylerhaleprofile/"
+        "url": "https://www.linkedin.com/in/tylerhaleprofile/",
+        "username": "tylerhaleprofile"
       }
-    ]
+    ],
+    "summary": "Working in the Computer Software Industry. Skilled in Agile Methodologies, DataScience Stacks, DevOps, Multiple Languages, and Linux. Constantly trying to get my foot in every door to gain a bigger perspective.",
+    "website": "http://tyhal.com"
   },
-  "work": [
-    {
-      "company": "Nyriad",
-      "position": "Software Developer",
-      "website": "https://nyriad.com",
-      "startDate": "2014-09-12",
-      "endDate": "Present",
-      "summary": "NYRIAD™ is an information technology company specializing in advanced storage solutions for big data and high performance computing. Our products are designed to solve storage, bandwidth, computing performance and power problems for the world’s most performance demanding IT projects and systems integrators by delivering performance exceeding anything possible with traditional IT solutions.",
-      "highlights": [
-        "Building the LUCE LiDAR Cloud stack for Scion",
-        "Product Managing multiple internal areas",
-        "Building new technology in Cambridge"
-      ]
-    }
-  ],
-  "volunteer": [
-  ],
   "education": [
     {
-      "institution": "University of Waikato",
       "area": "Computer Science",
-      "studyType": "Bachelor",
-      "startDate": "2015-01-01",
-      "endDate": "2018-06-01",
-      "gpa": "",
       "courses": [
         "TODO",
         ""
-      ]
-    }
-  ],
-  "awards": [
-    {
-      "title": "2014 Computer Science Scholarship",
-      "date": "2014-11-01",
-      "awarder": "Professor Geoff Holmes",
-      "summary": ""
-    }
-  ],
-  "publications": [
-  ],
-  "skills": [
-    {
-      "name": "Management",
-      "level": "Intermediate",
-      "keywords": [
-      ]
-    },
-    {
-      "name": "Web Development",
-      "level": "Intermediate",
-      "keywords": [
-      ]
-    },
-    {
-      "name": "DevOPs",
-      "level": "Experienced",
-      "keywords": [
-      ]
-    },
-    {
-      "name": "Software Engineering",
-      "level": "Intermediate",
-      "keywords": [
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Native speaker"
+      ],
+      "endDate": "2018-06-01",
+      "gpa": "",
+      "institution": "University of Waikato",
+      "startDate": "2015-01-01",
+      "studyType": "Bachelor"
     }
   ],
   "interests": [
     {
-      "name": "Food",
       "keywords": [
         "Ramen",
         "Dumplings",
         "Teriyaki Chicken"
-      ]
+      ],
+      "name": "Food"
     }
   ],
-  "references": [
+  "languages": [
+    {
+      "fluency": "Native speaker",
+      "language": "English"
+    }
+  ],
+  "publications": [],
+  "references": [],
+  "skills": [
+    {
+      "keywords": [],
+      "level": "Intermediate",
+      "name": "Management"
+    },
+    {
+      "keywords": [],
+      "level": "Intermediate",
+      "name": "Web Development"
+    },
+    {
+      "keywords": [],
+      "level": "Experienced",
+      "name": "DevOPs"
+    },
+    {
+      "keywords": [],
+      "level": "Intermediate",
+      "name": "Software Engineering"
+    }
+  ],
+  "volunteer": [],
+  "work": [
+    {
+      "company": "Nyriad",
+      "endDate": "Present",
+      "highlights": [
+        "Building the LUCE LiDAR Cloud stack for Scion",
+        "Product Managing multiple internal areas",
+        "Building new technology in Cambridge"
+      ],
+      "position": "Software Developer",
+      "startDate": "2014-09-12",
+      "summary": "NYRIAD™ is an information technology company specializing in advanced storage solutions for big data and high performance computing. Our products are designed to solve storage, bandwidth, computing performance and power problems for the world’s most performance demanding IT projects and systems integrators by delivering performance exceeding anything possible with traditional IT solutions.",
+      "website": "https://nyriad.com"
+    }
   ]
 }

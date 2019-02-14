@@ -6,9 +6,10 @@ Hopefully I have haven't committed any web development sins
 
 # Run Me
 
-    npm install
-    npm start
-    npm watch-css
+```bash
+    script/bootstrap.sh
+    script/test.sh
+```
     
 # Goal
 
