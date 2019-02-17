@@ -18,10 +18,10 @@ class NavBar extends React.Component {
           <NavbarBrand href='/' style={{ 'marginLeft': '10px' }}>{this.props.name}</NavbarBrand>
           <Nav className='ml-auto' navbar>
             <NavItem>
-              <Button color='dark' href='/jsonresume'>Json Resume</Button>
+              <Link to='jsonresume'>Json Resume</Link>
             </NavItem>
             <NavItem>
-              <Button color='dark' href='/teriyaki'>Teriyaki Chicken</Button>
+              <Link to='teriyaki'>Teriyaki Chicken</Link>
             </NavItem>
           </Nav>
         </Navbar>

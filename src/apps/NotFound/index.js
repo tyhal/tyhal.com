@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
-import { Card } from 'reactstrap'
+import { Jumbotron } from 'reactstrap'
 
 // app component
 class NotFound extends Component {
   // render
   render () {
-    return (<Card>Not Found</Card>)
+    return (<Jumbotron><h1>404</h1><h4>Page Not Found</h4></Jumbotron>)
   }
 }
 

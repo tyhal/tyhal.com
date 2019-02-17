@@ -28,17 +28,17 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Nunito+Sans:400,600" !d
 }
 
 .bg-light {
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 3px solid rgba(0, 0, 0, 0.1);
 
   &.navbar-fixed-top {
+    border-color: red;
     border-width: 0 0 1px 0;
   }
 
   &.navbar-bottom-top {
-    border-width: 1px 0 0 0;
+    border-width: 3px 0 0 0;
   }
 }
-
 .nav-item {
   margin-right: 2rem;
 }
@@ -81,11 +81,11 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Nunito+Sans:400,600" !d
 }
 
 [class*="btn-outline-"] {
-  border-width: 2px;
+  border-width: 3px;
 }
 
 .border-secondary {
-  border: 1px solid $gray-400 !important;
+  border: 3px solid $gray-400 !important;
 }
 
 // Typography ==================================================================

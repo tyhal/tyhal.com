@@ -13,8 +13,13 @@
   "posts area ": false,
   "projects watching ": false,
   "recommended books": false,
-  "skills list": false,
+  "skills grpah nodes colored by completion": false,
   "summary at top of main page": true,
   "terriyaki chicken ": true,
-  "zsh is cool": false
+  "zsh is cool": false,
+  "blog post area": false,
+  "languages or something": false,
+  "big list of tools for building stuff": false,
+  "the big stack to actually build": false,
+  "c3 graphs and stuff": false
 }

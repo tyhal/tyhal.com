@@ -20,7 +20,8 @@ $background-color: #282a36 !default;
 $body-bg:                   $background-color !default;
 $body-color:                $foreground-color !default;
 
-$trim: #762d5c !default;
+// #762d5c
+$trim: $background-color !default;
 $current: #44475a!default;
 
 $red: #ff5555 !default;
@@ -47,6 +48,7 @@ $mark-bg: $black !default;
 $font-family-sans-serif:      "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
 
 $font-size-base:              0.875rem !default;
+$font-size-sm:                0.5rem !default;
 
 $h1-font-size:                2rem !default;
 $h2-font-size:                1.75rem !default;
@@ -94,7 +96,6 @@ $nav-tabs-link-active-color:        $white !default;
 $nav-tabs-link-active-border-color: $nav-tabs-border-color !default;
 
 // Navbar
-
 $navbar-padding-y:                  0 !default;
 
 $navbar-dark-hover-color:           $white !default;
@@ -127,7 +128,7 @@ $jumbotron-bg:                      $black !default;
 // Cards
 
 $card-border-color:                 $trim !default;
-$card-border-width: 10px;
+$card-border-width: 3px;
 $card-cap-bg:                       lighten($gray-800, 10%) !default;
 $card-bg:                           $black !default;
 
@@ -148,7 +149,7 @@ $progress-bar-color:                $gray-600 !default;
 
 // List group
 
-$list-group-bg:                     $current !default;
+$list-group-bg:                     $background-color !default;
 
 // Breadcrumbs
 
