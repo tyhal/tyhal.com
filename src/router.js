@@ -4,7 +4,7 @@ import Root from './apps/Root'
 import Main from './apps/Main'
 import Teriyaki from './apps/TeriyakiChicken'
 import NotFound from './apps/NotFound'
-import JsonResume from './apps/JSONResume'
+import JsonResume from './apps/Json'
 
 class TyHalRouter extends Component {
   render () {

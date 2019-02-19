@@ -10,11 +10,16 @@ export default class Root extends React.Component {
   render () {
     return (
       <div className='app sidebar-show aside-menu-show'>
-        <NavBar picture={resume.basics.picture} name={resume.basics.name} />
+        <NavBar
+          picture={resume.basics.picture}
+          name={resume.basics.name}
+          profiles={resume.basics.profiles} />
         <div className='container'>
           {React.cloneElement(this.props.children, { resume: resume })}
         </div>
-        <Footer website={resume.basics.website} name={resume.basics.name} />
+        <Footer
+          website={resume.basics.website}
+          name={resume.basics.name} />
       </div>
     )
   }

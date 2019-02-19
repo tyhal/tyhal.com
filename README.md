@@ -10,7 +10,7 @@ Hopefully I have haven't committed any web development sins
     script/bootstrap.sh
     script/test.sh
 ```
-    
+
 # Goal
 
 Have all the content defined under resource

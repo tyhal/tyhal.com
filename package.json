@@ -1,4 +1,10 @@
 {
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
   "dependencies": {
     "bootstrap": "^4.1.3",
     "bootswatch": "^4.1.3",
@@ -25,11 +31,5 @@
     "test": "react-scripts test --env=jsdom",
     "watch-css": "npm run build-css && node-sass-chokidar --importer=node_modules/node-sass-tilde-importer src/ -o src/gencss --watch --recursive"
   },
-  "version": "0.1.0",
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  "version": "0.1.0"
 }

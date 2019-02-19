@@ -1,6 +1,9 @@
 {
+  "big list of tools for building stuff": false,
+  "blog post area": false,
   "business card re-render": false,
   "buttons to relevant sites ": false,
+  "c3 graphs and stuff": false,
   "create 25 step plan": false,
   "dumpling leaderboard": false,
   "fill in courses taken": false,
@@ -9,6 +12,7 @@
   "json resume info filled out": true,
   "json resume page ": true,
   "l2git": false,
+  "languages or something": false,
   "old art ": false,
   "posts area ": false,
   "projects watching ": false,
@@ -16,10 +20,6 @@
   "skills grpah nodes colored by completion": false,
   "summary at top of main page": true,
   "terriyaki chicken ": true,
-  "zsh is cool": false,
-  "blog post area": false,
-  "languages or something": false,
-  "big list of tools for building stuff": false,
   "the big stack to actually build": false,
-  "c3 graphs and stuff": false
+  "zsh is cool": false
 }
