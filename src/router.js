@@ -13,7 +13,7 @@ class TyHalRouter extends Component {
         <Route path='/' component={Root}>
           <IndexRoute component={Main} />
           <Route path='teriyaki' component={Teriyaki} />
-          <Route path='jsonresume' component={JsonResume} />
+          <Route path='json' component={JsonResume} />
           <Route path='*' component={NotFound} />
         </Route>
       </Router>
