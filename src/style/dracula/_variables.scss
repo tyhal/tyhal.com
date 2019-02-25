@@ -15,13 +15,12 @@ $gray-900: #2F313B !default;
 $black: #1f212d !default;
 
 $foreground-color: #f8f8f2 !default;
-$background-color: #282a36 !default;
 //
-$body-bg:                   $background-color !default;
+$body-bg: #383b47 !default;
 $body-color:                $foreground-color !default;
 
 // #762d5c
-$trim: $background-color !default;
+$trim: #282a36 !default;
 $current: #44475a!default;
 
 $red: #ff5555 !default;
@@ -43,12 +42,15 @@ $dark:          $black !default;
 
 $mark-bg: $black !default;
 
+$border-width: 5px;
+$border-radius: 5px;
+
 // ~~~ Fonts
 
-$font-family-sans-serif:      "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+$font-family-sans-serif:      "Dracula","Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
 
 $font-size-base:              0.875rem !default;
-$font-size-sm:                0.5rem !default;
+$font-size-sm:                0.6rem !default;
 
 $h1-font-size:                2rem !default;
 $h2-font-size:                1.75rem !default;
@@ -97,12 +99,9 @@ $nav-tabs-link-active-border-color: $nav-tabs-border-color !default;
 
 // Navbar
 $navbar-padding-y:                  0 !default;
-
 $navbar-dark-hover-color:           $white !default;
-
 $navbar-light-hover-color:          $white !default;
 $navbar-light-active-color:         $primary !default;
-
 
 // Pagination
 
@@ -128,7 +127,7 @@ $jumbotron-bg:                      $black !default;
 // Cards
 
 $card-border-color:                 $trim !default;
-$card-border-width: 3px;
+$card-border-width: $border-width;
 $card-cap-bg:                       lighten($gray-800, 10%) !default;
 $card-bg:                           $black !default;
 
@@ -149,7 +148,8 @@ $progress-bar-color:                $gray-600 !default;
 
 // List group
 
-$list-group-bg:                     $background-color !default;
+$list-group-bg:                     $black !default;
+$list-group-border-width:           $border-width;
 
 // Breadcrumbs
 

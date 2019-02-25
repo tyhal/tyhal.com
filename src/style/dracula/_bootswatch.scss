@@ -1,8 +1,8 @@
 
 // Variables ===================================================================
 
-$web-font-path: "https://fonts.googleapis.com/css?family=Nunito+Sans:400,600" !default;
-@import url($web-font-path);
+//$web-font-path: "https://fonts.googleapis.com/css?family=Nunito+Sans:400,600" !default;
+//@import url($web-font-path);
 
 // Navbar ======================================================================
 
@@ -24,14 +24,13 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Nunito+Sans:400,600" !d
 }
 
 .bg-primary {
-  background-color: $background-color !important;
+  background-color: $body-bg !important;
 }
 
 .bg-light {
-  border: 3px solid rgba(0, 0, 0, 0.1);
+  border: $border-width solid rgba(0, 0, 0, 0.1);
 
   &.navbar-fixed-top {
-    border-color: red;
     border-width: 0 0 1px 0;
   }
 
@@ -151,17 +150,15 @@ th {
   .h1, .h2, .h3, .h4, .h5, .h6 {
     color: inherit;
   }
+  border-color: $trim;
 }
 
 .card {
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  border-radius: 0;
   &-title,
   &-header {
     color: inherit;
   }
-  margin-bottom: 5px;
+  margin: 15px 0px;
 }
 
 // Jumbotron ======================================================================

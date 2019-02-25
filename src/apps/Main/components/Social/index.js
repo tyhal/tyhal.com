@@ -1,14 +1,12 @@
 import * as React from 'react'
 import {
-  NavItem
+  CardLink,
 } from 'reactstrap'
 
 class Social extends React.Component {
   render () {
     return (
-      <NavItem>
-        <a href={this.props.data.url}>{this.props.data.network}</a>
-      </NavItem>
+      <CardLink href={this.props.data.url}>{this.props.data.network}</CardLink>
     )
   }
 }
