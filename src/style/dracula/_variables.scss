@@ -3,15 +3,15 @@
 
 $white: #f8f8f2 !default;
 // Start darker
-$gray-100: #AEAFAF !default;
-$gray-200: #9E9FA1 !default;
-$gray-300: #8E8F92 !default;
-$gray-400: #7E8084 !default;
-$gray-500: #6E7075 !default;
-$gray-600: #5F6067 !default;
-$gray-700: #4F5058 !default;
-$gray-800: #3F414A !default;
-$gray-900: #2F313B !default;
+//$gray-100: #AEAFAF !default;
+//$gray-200: #9E9FA1 !default;
+//$gray-300: #8E8F92 !default;
+//$gray-400: #7E8084 !default;
+//$gray-500: #6E7075 !default;
+//$gray-600: #5F6067 !default;
+//$gray-700: #4F5058 !default;
+//$gray-800: #3F414A !default;
+//$gray-900: #2F313B !default;
 $black: #1f212d !default;
 
 $foreground-color: #f8f8f2 !default;
@@ -83,7 +83,7 @@ $input-disabled-bg:                     $foreground-color !default;
 
 // Dropdowns
 
-$dropdown-bg:                       $gray-800 !default;
+$dropdown-bg:                       $black !default;
 $dropdown-divider-bg:               rgba($black,.15) !default;
 
 $dropdown-link-color:               $body-color !default;
@@ -128,7 +128,7 @@ $jumbotron-bg:                      $black !default;
 
 $card-border-color:                 $trim !default;
 $card-border-width: $border-width;
-$card-cap-bg:                       lighten($gray-800, 10%) !default;
+$card-cap-bg:                       $body-bg !default;
 $card-bg:                           $black !default;
 
 // Popovers
@@ -143,8 +143,8 @@ $modal-header-border-color:         rgba(0,0,0,.2) !default;
 
 // Progress bars
 
-$progress-bg:                       darken($gray-900, 5%) !default;
-$progress-bar-color:                $gray-600 !default;
+$progress-bg:                       $black !default;
+$progress-bar-color:                $current !default;
 
 // List group
 
@@ -153,7 +153,7 @@ $list-group-border-width:           $border-width;
 
 // Breadcrumbs
 
-$breadcrumb-active-color:           $gray-500 !default;
+$breadcrumb-active-color:           $white !default;
 
 // Code
 

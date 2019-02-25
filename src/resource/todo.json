@@ -2,7 +2,7 @@
   "big list of tools for building stuff": false,
   "blog post area": false,
   "business card re-render": false,
-  "buttons to relevant sites ": false,
+  "buttons to relevant sites ": true,
   "c3 graphs and stuff": false,
   "create 25 step plan": false,
   "dumpling leaderboard": false,
@@ -17,9 +17,10 @@
   "posts area ": false,
   "projects watching ": false,
   "recommended books": false,
-  "skills grpah nodes colored by completion": false,
+  "skills graph nodes colored by completion": false,
   "summary at top of main page": true,
   "terriyaki chicken ": true,
   "the big stack to actually build": false,
-  "zsh is cool": false
+  "zsh is cool": false,
+  "links on todo list": false
 }

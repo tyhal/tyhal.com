@@ -1,15 +1,20 @@
 import React, { Component } from 'react'
 import ReactJson from 'react-json-view'
-import { Card, CardBody, CardTitle,CardSubtitle } from 'reactstrap'
+import { Card, CardBody, CardTitle, CardSubtitle, CardText, CardHeader } from 'reactstrap'
 
 class JsonResume extends Component {
   render () {
     return (<Card>
-      <CardBody>
-      <CardTitle>My details in json form</CardTitle>
+      <CardHeader>
+        <CardTitle>My details in json form</CardTitle>
         <CardSubtitle>
-            https://jsonresume.org/
+          https://jsonresume.org/
         </CardSubtitle>
+      </CardHeader>
+      <CardBody>
+        <CardText>
+          This whole website is driven by this json, with some additional ones for other separate or less important information
+        </CardText>
       </CardBody>
       <CardBody>
         <ReactJson src={this.props.resume} theme={{

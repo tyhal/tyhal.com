@@ -9,7 +9,6 @@ class NavBar extends React.Component {
     return (
       <div>
         <Navbar color='dark' light expand='md'>
-          <img alt='profile' width={75} height={75} src={this.props.picture} />
           <NavbarBrand href='/' style={{ 'marginLeft': '10px' }}>{this.props.name}</NavbarBrand>
           <Nav className='ml-auto' navbar>
             {routes.map(route =>
