@@ -49,16 +49,7 @@
       "studyType": "Bachelor"
     }
   ],
-  "interests": [
-    {
-      "keywords": [
-        "Ramen",
-        "Dumplings",
-        "Teriyaki Chicken"
-      ],
-      "name": "Food"
-    }
-  ],
+  "interests": [],
   "languages": [
     {
       "fluency": "Native speaker",
