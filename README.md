@@ -1,17 +1,23 @@
 # tyhal.com
 
-Just the source for my personal website
+A JSON Driven Static Website on AWS
 
-Hopefully I have haven't committed any web development sins
+---
 
-# Run Me
+## Run Me
 
 ```bash
-    script/bootstrap.sh
-    script/test.sh
+    script/bootstrap
+    script/test
 ```
+    
+Using terraform we can deploy our static website
 
-# Goal
+You will need to go into `terraform/static-website.tf` and change the bucket and key to something your own
 
-Have all the content defined under resource
-then you can just fill the json content and the page will update
+```bash
+    export AWS_SECRET_ACCESS_KEY=
+    export AWS_ACCESS_KEY_ID= 
+    
+    script/deploy
+```
