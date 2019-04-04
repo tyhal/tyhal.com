@@ -26,6 +26,24 @@ resource "aws_s3_bucket" "website" {
   }
 }
 
+resource "aws_s3_bucket_policy" "website" {
+  bucket = "${aws_s3_bucket.website.id}"
+  policy = <<POLICY
+{
+  "Version":"2012-10-17",
+  "Statement":[{
+	"Sid":"PublicReadGetObject",
+        "Effect":"Allow",
+	  "Principal": "*",
+      "Action":["s3:GetObject"],
+      "Resource":["arn:aws:s3:::${var.domain_name}/*"
+      ]
+    }
+  ]
+}
+POLICY
+}
+
 resource "aws_route53_zone" "site" {
   name = "${var.domain_name}"
 }
@@ -37,7 +55,7 @@ resource "aws_route53_record" "siteroot" {
 
   alias {
     zone_id = "${aws_s3_bucket.website.hosted_zone_id}"
-    name = "${var.domain_name}"
+    name = "${aws_s3_bucket.website.bucket}"
     evaluate_target_health = false
   }
 }

@@ -315,4 +315,5 @@ src/gencss
 
 build/
 
+.terraform
 ngot.yml
