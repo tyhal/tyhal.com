@@ -17,7 +17,7 @@ class Basics extends Component {
       </CardHeader>
       <CardBody>
         <CardText><img className="rounded-circle" alt='profile' width={100} height={100} src={this.props.basics.picture}/></CardText>
-        <CardText>Ay I be in the {this.props.basics.location.region} {<ReactCountryFlag
+        <CardText>Currently residing in the {this.props.basics.location.region} {<ReactCountryFlag
           code={this.props.basics.location.countryCode} svg/>}</CardText>
         <CardText>{this.props.basics.summary}</CardText>
         {this.props.basics.profiles.map(soc => <Social data={soc}/>)}
