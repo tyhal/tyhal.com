@@ -13,14 +13,13 @@ class Basics extends Component {
       <CardHeader>
         <CardTitle>My Basic Summary</CardTitle>
         <CardSubtitle>{this.props.basics.label}</CardSubtitle>
-
       </CardHeader>
       <CardBody>
-        <CardText><img className="rounded-circle" alt='profile' width={100} height={100} src={this.props.basics.picture}/></CardText>
+        <CardText><img align={'right'} className='rounded-circle' alt='profile' width={150} height={150} src={this.props.basics.picture} /></CardText>
         <CardText>Currently residing in the {this.props.basics.location.region} {<ReactCountryFlag
-          code={this.props.basics.location.countryCode} svg/>}</CardText>
+          code={this.props.basics.location.countryCode} svg />}</CardText>
         <CardText>{this.props.basics.summary}</CardText>
-        {this.props.basics.profiles.map(soc => <Social data={soc}/>)}
+        {this.props.basics.profiles.map(soc => <Social data={soc} />)}
       </CardBody>
     </Card>)
   }
@@ -30,8 +29,8 @@ class Main extends Component {
   render () {
     return (
       <div>
-        <Basics basics={this.props.resume.basics}/>
-        <TodoList todolist={todolist} total={25}/>
+        <Basics basics={this.props.resume.basics} />
+        <TodoList todolist={todolist} total={25} />
       </div>)
   }
 }

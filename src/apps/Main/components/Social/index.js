@@ -1,6 +1,6 @@
 import * as React from 'react'
 import {
-  CardLink,
+  CardLink
 } from 'reactstrap'
 
 class Social extends React.Component {

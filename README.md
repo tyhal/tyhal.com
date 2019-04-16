@@ -2,7 +2,7 @@
 
 A JSON Driven Static Website on AWS
 
----
+* * *
 
 ## Run Me
 
@@ -10,7 +10,7 @@ A JSON Driven Static Website on AWS
     script/bootstrap
     script/test
 ```
-    
+
 Using terraform we can deploy our static website
 
 You will need to go into `terraform/static-website.tf` and change the bucket and key to something your own

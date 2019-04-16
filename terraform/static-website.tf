@@ -6,9 +6,9 @@ terraform {
   required_version = ">= 0.11.11"
 
   backend "s3" {
-//    NOTE: you will need to change these to your own
+    //    NOTE: you will need to change these to your own
     bucket = "tyhal-terraform-state"
-    key = "website/tyhal.com.tfstate"
+    key    = "website/tyhal.com.tfstate"
     region = "ap-southeast-2"
   }
 }
@@ -16,6 +16,7 @@ terraform {
 resource "aws_s3_bucket" "website" {
   bucket = "${var.domain_name}"
   acl    = "public-read"
+
   website {
     index_document = "index.html"
     error_document = "error.html"
@@ -28,6 +29,7 @@ resource "aws_s3_bucket" "website" {
 
 resource "aws_s3_bucket_policy" "website" {
   bucket = "${aws_s3_bucket.website.id}"
+
   policy = <<POLICY
 {
   "Version":"2012-10-17",
@@ -50,12 +52,12 @@ resource "aws_route53_zone" "site" {
 
 resource "aws_route53_record" "siteroot" {
   zone_id = "${aws_route53_zone.site.zone_id}"
-  name = "${aws_route53_zone.site.name}"
-  type = "A"
+  name    = "${aws_route53_zone.site.name}"
+  type    = "A"
 
   alias {
-    zone_id = "${aws_s3_bucket.website.hosted_zone_id}"
-    name = "${aws_s3_bucket.website.bucket}"
+    zone_id                = "${aws_s3_bucket.website.hosted_zone_id}"
+    name                   = "${aws_s3_bucket.website.bucket}"
     evaluate_target_health = false
   }
 }

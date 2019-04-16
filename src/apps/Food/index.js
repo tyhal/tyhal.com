@@ -1,15 +1,14 @@
-import React, {Component} from 'react'
-import recipes from "../../resource/recipes";
-import {Breadcrumb, BreadcrumbItem} from "reactstrap";
+import React, { Component } from 'react'
+import recipes from '../../resource/recipes'
 
 // app component
 class Food extends Component {
-    // render
-    render() {
-        return (<div>
-            {React.cloneElement(this.props.children, {recipes: recipes})}
-        </div>)
-    }
+  // render
+  render () {
+    return (<div>
+      {React.cloneElement(this.props.children, { recipes: recipes })}
+    </div>)
+  }
 }
 
 export default Food

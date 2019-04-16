@@ -7,8 +7,7 @@ import NotFound from './apps/NotFound'
 import JsonResume from './apps/Json'
 import Food from './apps/Food'
 import Recipe from './apps/Food/components/Recipe'
-import Recipes from "./apps/Food/components/Recipes";
-
+import Recipes from './apps/Food/components/Recipes'
 
 class TyHalRouter extends Component {
   render () {
@@ -19,7 +18,7 @@ class TyHalRouter extends Component {
           <Route path='teriyaki' component={Teriyaki} />
           <Route path='food' component={Food} >
             <IndexRoute component={Recipes} />
-            <Route path='*' component={Recipe}/>
+            <Route path='*' component={Recipe} />
 
           </Route>
           <Route path='json' component={JsonResume} />

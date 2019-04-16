@@ -14,3 +14,5 @@ echo "You have 10 seconds to cancel deployment"
 sleep 10
 
 terraform apply -auto-approve
+
+aws s3 sync build s3://${TF_VAR_domain_name}

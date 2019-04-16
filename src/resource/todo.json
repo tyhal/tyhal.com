@@ -4,15 +4,18 @@
   "business card re-render": false,
   "buttons to relevant sites ": true,
   "c3 graphs and stuff": false,
-  "create 25 step plan": false,
+  "create 25+ step plan": true,
   "dumpling leaderboard": false,
   "fill in courses taken": false,
+  "get a font that can render <= <~~> |> 0xFF -<< >==>": true,
+  "have the percentage of this list complete be too accurate": true,
   "i am become deaf, the ignorer of words": false,
   "info dump wiki ": false,
   "json resume info filled out": true,
   "json resume page ": true,
   "l2git": false,
   "languages or something": false,
+  "links on todo list": false,
   "old art ": false,
   "posts area ": false,
   "projects watching ": false,
@@ -21,6 +24,5 @@
   "summary at top of main page": true,
   "terriyaki chicken ": true,
   "the big stack to actually build": false,
-  "zsh is cool": false,
-  "links on todo list": false
+  "zsh is cool": false
 }
