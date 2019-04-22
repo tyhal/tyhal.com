@@ -20,7 +20,7 @@ class Recipe extends Component {
             <CardText>
               <h1>{recipe.name}</h1>
               <p>
-                <h6>Source:</h6>{recipe.source}
+                <h6>Source:</h6><a href={recipe.source}>{recipe.source}</a>
               </p>
               <Card>
                 <CardBody>

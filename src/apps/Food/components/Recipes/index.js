@@ -8,7 +8,7 @@ class Recipes extends Component {
     return (<Card>
       <CardHeader>
         <CardTitle>Recipes I use</CardTitle>
-        <CardSubtitle>All should be tasty  🍜</CardSubtitle>
+        <CardSubtitle>All should be tasty <span role='img' />🍜</CardSubtitle>
       </CardHeader>
       <CardBody>
         <ListGroup>{Object.keys(this.props.recipes).map(

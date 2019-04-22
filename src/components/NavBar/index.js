@@ -4,7 +4,7 @@ import { Nav, Navbar, NavbarBrand, NavItem } from 'reactstrap'
 
 class NavBar extends React.Component {
   render () {
-    const routes = ['json', 'teriyaki']
+    const routes = ['json', 'graph', 'food/teriyaki', 'food/tonkotsu_ramen']
 
     return (
       <div>

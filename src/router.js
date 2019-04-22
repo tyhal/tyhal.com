@@ -8,6 +8,7 @@ import JsonResume from './apps/Json'
 import Food from './apps/Food'
 import Recipe from './apps/Food/components/Recipe'
 import Recipes from './apps/Food/components/Recipes'
+import Graph from './apps/PlotTest'
 
 class TyHalRouter extends Component {
   render () {
@@ -15,13 +16,13 @@ class TyHalRouter extends Component {
       <Router onUpdate={() => window.scrollTo(0, 0)} history={hashHistory}>
         <Route path='/' component={Root}>
           <IndexRoute component={Basics} />
-          <Route path='teriyaki' component={Teriyaki} />
           <Route path='food' component={Food} >
             <IndexRoute component={Recipes} />
+            <Route path='teriyaki' component={Teriyaki} />
             <Route path='*' component={Recipe} />
-
           </Route>
           <Route path='json' component={JsonResume} />
+          <Route path='graph' component={Graph} />
           <Route path='*' component={NotFound} />
         </Route>
       </Router>

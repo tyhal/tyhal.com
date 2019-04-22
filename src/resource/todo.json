@@ -5,9 +5,10 @@
   "buttons to relevant sites ": true,
   "c3 graphs and stuff": false,
   "create 25+ step plan": true,
+  "drti 'dirty' dont repeat the industry, like dry but drier": false,
   "dumpling leaderboard": false,
   "fill in courses taken": false,
-  "get a font that can render <= <~~> |> 0xFF -<< >==>": true,
+  "get a font that can render <= ~~> |> 0xFF -<< >==>": true,
   "have the percentage of this list complete be too accurate": true,
   "i am become deaf, the ignorer of words": false,
   "info dump wiki ": false,
@@ -23,6 +24,5 @@
   "skills graph nodes colored by completion": false,
   "summary at top of main page": true,
   "terriyaki chicken ": true,
-  "the big stack to actually build": false,
   "zsh is cool": false
 }

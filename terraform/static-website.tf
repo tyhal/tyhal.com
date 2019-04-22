@@ -52,12 +52,12 @@ resource "aws_route53_zone" "site" {
 
 resource "aws_route53_record" "siteroot" {
   zone_id = "${aws_route53_zone.site.zone_id}"
-  name    = "${aws_route53_zone.site.name}"
+  name    = "${var.domain_name}"
   type    = "A"
 
   alias {
     zone_id                = "${aws_s3_bucket.website.hosted_zone_id}"
-    name                   = "${aws_s3_bucket.website.bucket}"
+    name                   = "${aws_s3_bucket.website.website_domain}"
     evaluate_target_health = false
   }
 }

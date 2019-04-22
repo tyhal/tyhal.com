@@ -316,4 +316,4 @@ src/gencss
 build/
 
 .terraform
-ngot.yml
+terraform/plan
