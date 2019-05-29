@@ -1,4 +1,4 @@
 ignore:
-- .git
-- node_modules
+  - .git
+  - node_modules
 proj_dirs: []
