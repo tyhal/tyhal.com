@@ -20,7 +20,7 @@ class TodoList extends React.Component {
           <Progress bar color='danger' value={100 - percentdone} />
         </Progress>
         <div className='text-center'>{percentdone}%</div>
-
+        <br />
         <ListGroup>
           {Object.keys(todolist).map(item =>
             <ListGroupItem key={item} color='default'>

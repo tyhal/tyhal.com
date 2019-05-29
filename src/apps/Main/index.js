@@ -30,6 +30,7 @@ class Main extends Component {
     return (
       <div>
         <Basics basics={this.props.resume.basics} />
+        <br />
         <TodoList todolist={todolist} total={25} />
       </div>)
   }

@@ -2,6 +2,8 @@
 
 A JSON Driven Static Website on AWS
 
+Costs me $0.50 (NZD) a month to host.
+
 * * *
 
 ## Run Me

@@ -1,4 +1,8 @@
 ignore:
   - .git
   - node_modules
+  - build
+  - src/gencss
+  # Docker regex is incorrect
+  - .idea/runConfigurations/Dockerfile.xml
 proj_dirs: []

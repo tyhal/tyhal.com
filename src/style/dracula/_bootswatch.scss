@@ -106,6 +106,7 @@ h3 {
   color: $body-color !important;
 }
 
+
 // Tables ======================================================================
 
 th {
@@ -149,9 +150,19 @@ th {
 }
 
 .card {
-  &-title,
+  &-title {
+    color: $white;
+    font-size: $h5-font-size;
+  }
   &-header {
-    color: inherit;
+    font-size: $h6-font-size;
+    color: $headings-color;
+  }
+
+  &-header, &-title {
+    font-weight: $headings-font-weight;
+    text-transform: uppercase;
+    letter-spacing: 3px;
   }
   margin: 30px 0px 0px 0px;
 }
