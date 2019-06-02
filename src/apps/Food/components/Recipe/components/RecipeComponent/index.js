@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
-import { Card, CardBody, CardText, ListGroup, ListGroupItem } from 'reactstrap'
-import { Link } from 'react-router'
+import { Badge, Card, CardBody, CardText, ListGroup, ListGroupItem } from 'reactstrap'
+import CardHeader from 'reactstrap/es/CardHeader'
+import CardTitle from 'reactstrap/es/CardTitle'
 
 // app component
 class RecipeComponent extends Component {
@@ -10,31 +11,30 @@ class RecipeComponent extends Component {
     return (
       <div>
         <Card style={{ height: '100%' }}>
+          <CardHeader>
+            <CardTitle>{recipe.name}</CardTitle>
+          </CardHeader>
           <CardBody>
             <CardText>
-              <h2 id={'slaw'}>{recipe.name}</h2>
-              <CardText>
-                <div className={'row'}>
-                  <div className={'col'}><h6>Makes:</h6></div>
-                  <div className={'col'}>{recipe.makes} </div>
-                </div>
-              </CardText>
-              <CardText>
-                <h3>Ingredients</h3>
-                <ListGroup>
-                  {recipe.ingredients.map(ind =>
-                    <ListGroupItem>{ind}</ListGroupItem>
-                  )}
-                  {recipe.components.map(com =>
-                    <ListGroupItem>{com.needed} {com.name} <Link to={'food/' + com.name}>See
-                                            recipe</Link></ListGroupItem>
-                  )}
-                </ListGroup>
-              </CardText>
-              <CardText>
-                <h3>Directions</h3>
-                {recipe.directions.map(x => <p>{x}</p>)}
-              </CardText>
+              <div className={'row'}>
+                <div className={'col'}><h6>Makes:</h6></div>
+                <div className={'col'}>{recipe.makes} </div>
+              </div>
+            </CardText>
+            <CardText>
+              <h3>Ingredients</h3>
+              <ListGroup>
+                {recipe.ingredients.map(ind =>
+                  <ListGroupItem>{ind}</ListGroupItem>
+                )}
+                {recipe.components.map(com =>
+                  <ListGroupItem><Badge color='secondary' pill>component</Badge> {com.needed} {com.name}</ListGroupItem>
+                )}
+              </ListGroup>
+            </CardText>
+            <CardText>
+              <h3>Directions</h3>
+              {recipe.directions.map(x => <p>{x}</p>)}
             </CardText>
           </CardBody>
         </Card>

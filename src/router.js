@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import { IndexRoute, Route, Router, hashHistory } from 'react-router'
 import Root from './apps/Root'
 import Basics from './apps/Main'
-import Teriyaki from './apps/TeriyakiChicken'
 import NotFound from './apps/NotFound'
 import JsonResume from './apps/Json'
 import Food from './apps/Food'
@@ -18,7 +17,6 @@ class TyHalRouter extends Component {
           <IndexRoute component={Basics} />
           <Route path='food' component={Food} >
             <IndexRoute component={Recipes} />
-            <Route path='teriyaki' component={Teriyaki} />
             <Route path='*' component={Recipe} />
           </Route>
           <Route path='json' component={JsonResume} />

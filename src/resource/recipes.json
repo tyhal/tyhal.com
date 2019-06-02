@@ -1,5 +1,64 @@
 {
-  "teriyaki_chicken": {},
+  "teriyaki_chicken": {
+    "banner": "https://images.unsplash.com/photo-1484211318645-c4eb6a7f10c2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b02a3183f461b46e831736317d69eed5&auto=format&fit=crop&w=1347&q=80'",
+    "components": [
+      {
+        "components": [],
+        "directions": [
+          "Combine sugar, mirin and sake in a small pot and bring to the boil. Simmer for 2 minutes",
+          "then add soy and simmer for another 5 minutes or until it starts to thicken.",
+          "Remove heat and cool either use fresh or bottle and keep in the fridge."
+        ],
+        "ingredients": [
+          "150 ml Cooking Sake",
+          "150 ml Mirin",
+          "150 ml Soy Sauce - Kikoman",
+          "75 g Sugar - Brown"
+        ],
+        "name": "Teriyaki Sauce"
+      },
+      {
+        "components": [],
+        "directions": [
+          "Mix together in a bowl, serve on large plate to share"
+        ],
+        "ingredients": [
+          "2 Handfuls Cabbage - Green, Shredded",
+          "2 Handfuls Cabbage - Red, Shredded",
+          "4 tbsp Mayonnaise - Japanese",
+          "Salt - Sea",
+          "Pepper - White"
+        ],
+        "name": "Japanese Coleslaw"
+      }
+    ],
+    "cookTime": 15,
+    "directions": [
+      "Score the chicken and sprinkle salt. Cover the chicken with flour.",
+      "Heat a pan, add cooking oil and cook the chicken through - skin side first, 2-3 Minutes each side.",
+      "Pour the Teriyaki sauce over and simmer until the sauce becomes thick.",
+      "Slice the chicken and serve on a plate. Garnish with slices spring onion and sesame seeds if you would like.",
+      "Service with steamed rice and coleslaw"
+    ],
+    "ingredients": [
+      "4 Chicken - Thigh Boneless",
+      "Salt - Sea",
+      "3 tbsp Flour - High Grade",
+      "Sesame - Seeds",
+      "Rice for 4, See recipe",
+      "2 Onions - Green / Spring",
+      "Olive Oil - Normal "
+    ],
+    "makes": "4 Servings",
+    "name": "Teriyaki Chicken",
+    "notes": [
+      "-"
+    ],
+    "origin": "JP",
+    "prepTime": 30,
+    "source": "Sachie's Kitchen",
+    "tags": []
+  },
   "tonkotsu_ramen": {
     "banner": "https://i.imgur.com/ZYoH36f.jpg",
     "components": [
@@ -24,7 +83,7 @@
               "1 teaspoon white peppercorns"
             ],
             "makes": "10-12 cups of stock",
-            "name": "tonkotsu_base",
+            "name": "Tonkotsu Base",
             "needed": "3 cups"
           }
         ],
@@ -41,7 +100,7 @@
           "1 tablespoon toasted sesame seeds coarsely ground",
           "2 tablespoons fatback finely minced (salted pork fat)"
         ],
-        "name": "soup"
+        "name": "Tonkotsu Soup"
       },
       {
         "components": [],
@@ -55,7 +114,7 @@
           "5 cloves garlic grated"
         ],
         "makes": "some",
-        "name": "mayu"
+        "name": "Mayu (Black Garlic Oil)"
       }
     ],
     "cookTime": 165,
@@ -68,7 +127,7 @@
       "2 scallions finely chopped"
     ],
     "makes": "alot",
-    "name": "tonkotsu_ramen",
+    "name": "Tonkotsu Ramen",
     "notes": [
       "To get the creamy white soup it’s important that you use pork leg bones and the trotters. The white color comes from the marrow and collagen in these parts. Using other types of pork bones such as ribs or neck bones will not give your soup the richness or color.",
       "Don’t omit the fatback (salted pork fat). Most of the fat from the stock gets skimmed out, and the fat added at the last minute is what gives the soup it’s rich “sticky” quality. By whisking small bits of minced fatback in at the end, you create an emulsion of soup and fat, so it makes the soup nice and creamy without being greasy. If you’re having a hard time finding it, try asking for it at a butcher.",
@@ -76,7 +135,9 @@
       "Tahini is not the same as toasted sesame paste. It should be light beige in color and have a thick pourable consistency. If your grocery store doesn’t carry it, try finding a Middle Eastern or Indian grocery store. I use a brand called “Al Wadi” that comes in a plastic container with a green label and lid and has a relatively mellow flavor. If you can’t get tahini you can also grind your own sesame seeds until you have something resembling runny peanut butter.",
       "Salt has different levels of salinity depending on the type and brand. Even amongst kosher salt, Morton’s for example is much more salty than Diamond Crystal (which I use). Most recipes deliberately go low on the amount of salt you should use so you don’t accidentally over salt your dish. If you feel like it needs more salt, by all means, add more salt."
     ],
+    "origin": "JP",
     "prepTime": 15,
-    "source": "https://norecipes.com/tonkotsu-ramen-recipe/"
+    "source": "https://norecipes.com/tonkotsu-ramen-recipe/",
+    "tags": []
   }
 }

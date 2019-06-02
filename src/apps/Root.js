@@ -12,7 +12,8 @@ export default class Root extends React.Component {
       <div className='app sidebar-show aside-menu-show'>
         <NavBar
           picture={resume.basics.picture}
-          name={resume.basics.name} />
+          name={resume.basics.name}
+          path={this.props.location.pathname} />
         <div className='container'>
           {React.cloneElement(this.props.children, { resume: resume })}
         </div>

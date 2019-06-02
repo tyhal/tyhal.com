@@ -1,0 +1,30 @@
+{
+  "easy_ramen": {
+    "origin": "JP",
+    "source": "https://cookpad.com/us/recipes/1725126-easy-homemade-ramen-broth"
+  },
+  "korean_fried_chicken": {
+    "origin": "KR",
+    "source": "https://www.bonappetit.com/recipe/korean-fried-chicken-wings"
+  },
+  "lamb_chops": {
+    "origin": "US",
+    "source": "https://www.allrecipes.com/recipe/247363/chef-johns-grilled-lamb-with-mint-orange-sauce"
+  },
+  "pho": {
+    "origin": "VN",
+    "source": "https://www.allrecipes.com/recipe/228443/authentic-pho/"
+  },
+  "shoyu_ramen": {
+    "origin": "JP",
+    "source": "https://imgur.com/gallery/Tfd1rCY"
+  },
+  "swedish_meatballs": {
+    "origin": "SE",
+    "source": "https://imgur.com/gallery/V518WwR"
+  },
+  "tikka_masala": {
+    "origin": "IN",
+    "source": "https://www.recipetineats.com/chicken-tikka-masala/"
+  }
+}

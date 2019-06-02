@@ -5,7 +5,7 @@ class NavBar extends React.Component {
     return (
       <div className='row' style={{ 'marginTop': 20 }}>
         <div className='col-md-6' style={{ textAlign: 'left' }}>
-          <span>&copy; 2018 </span>
+          <span>&copy; 2019 </span>
           <a href={this.props.website}>{this.props.name}</a>
         </div>
         <div className='col-md-6' style={{ textAlign: 'right' }}>
