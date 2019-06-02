@@ -1,5 +1,7 @@
 # tyhal.com
 
+[![Dependency Status](https://david-dm.org/tyhal/tyhal.com.svg?theme=shields.io)](https://david-dm.org/tyhal/tyhal.com)
+
 A JSON Driven Static Website on AWS
 
 Costs me $0.50 (NZD) a month to host.
