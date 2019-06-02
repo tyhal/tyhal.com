@@ -16,7 +16,7 @@
     "react-history": "0.18.2",
     "react-json-view": "1.19.1",
     "react-router": "3.2.1",
-    "react-scripts": "3.0.1",
+    "react-scripts": "2.1.8",
     "reactstrap": "8.0.0"
   },
   "devDependencies": {
