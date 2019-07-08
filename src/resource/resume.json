@@ -3,7 +3,7 @@
     {
       "awarder": "Professor Geoff Holmes",
       "date": "2014-11-01",
-      "summary": "",
+      "summary": "Received the scholarship for being in the top 10 taking a Computer Science exam requiring both practical and theory, letting me skip from Year 12 High School to Second Year University Papers",
       "title": "2014 Computer Science Scholarship"
     }
   ],
@@ -18,13 +18,13 @@
       "region": "Waikato"
     },
     "name": "Tyler W Hale",
-    "phone": "",
+    "phone": "+64224253486",
     "picture": "https://render.bitstrips.com/v2/cpanel/e4f91d37-026a-44d0-91ea-b26cfdaa34a7-2b3e9ea9-00a9-46eb-a2a4-78a44de4f18a-v1.png?transparent=1&palette=1",
     "profiles": [
       {
         "network": "Linkedin",
-        "url": "https://www.linkedin.com/in/tylerhaleprofile/",
-        "username": "tylerhaleprofile"
+        "url": "https://www.linkedin.com/in/tyhal/",
+        "username": "tyhal"
       },
       {
         "network": "Github",
@@ -32,15 +32,26 @@
         "username": "tyhal"
       }
     ],
-    "summary": "I'm a developer who likes to explore different areas of programming, you will typically see me trying out faster and more automated ways to improve CI/CD, Machine Infrastructure and anything else that causes developer friction.\n\nI've been heavily involved in building infrastructure that supports Nvidia GPUs as well as effective storage and data science stacks that use them. This lead me to following Dev-Ops practises and has been a key aspect of working with tools such as Kubernetes, Kibana, Docker, Terraform, Ansible, and Jenkins.\n\nI started programming in high-school, leaving a year early with a scholarship to Waikato University while simultaneously being part of building Nyriad. I have actively jumped into new and existing projects where I have helped with leadership, management, and development problem solving.",
+    "summary": "• Developer who likes to explore different areas of programming, you will typically see me trying out faster and more automated ways to improve CI/CD, machine infrastructure and anything else that causes developer friction.\r\n\r\n• Heavily involved in building infrastructure that supports Nvidia GPUs as well as effective storage and data science stacks that use them. This lead me to following Dev-Ops practises and has been a key aspect of working with tools such as Kubernetes, Kibana, Docker, Terraform, Ansible, and Jenkins.\r\n\r\n• Started programming in high-school, leaving a year early with a scholarship to Waikato University while simultaneously being part of building Nyriad. I have actively jumped into new and existing projects where I have helped with leadership, management, and development problem solving.",
     "website": "http://tyhal.com"
   },
   "education": [
     {
       "area": "Computer Science",
       "courses": [
-        "TODO",
-        ""
+          "Artificial Intelligence Techniques and Applications - COMP316-16A",
+          "Computer Communications - COMP202-15B",
+		  "Computer Systems - COMP200-15A",
+		  "Data Stream Mining - COMP523-17A",
+		  "Design and Analysis of Algorithms - COMP317-17A",
+		  "Extremely Parallel Programming - COMP553-16A",
+		  "Introduction to 3D Modelling and Animation - COMP221-15B ",
+		  "Metaheuristic Algorithms - COMP556-17A",
+		  "Linear Algebra - MATH253-16A",
+		  "Software Engineering Development - COMP241-15A",
+		  "Software Engineering Process - COMP242-15B",
+		  "Software Engineering Project - COMP314-17B",
+		  "Topics in Programming Languages - COMP313-16A "
       ],
       "endDate": "2018-06-01",
       "gpa": "",
@@ -59,41 +70,49 @@
   "publications": [],
   "references": [],
   "skills": [
+	  {
+		  "keywords": ["ISCSI", "Block", "HDFS", "Ceph", "RAID", "Systems Design"],
+		  "level": "Intermediate",
+		  "name": "Storage"
+	  },
     {
-      "keywords": [],
+      "keywords": ["Aha! Product Management", "Jira", "Project Management", "Development Lead", "Solutions Design"],
       "level": "Intermediate",
-      "name": "Management"
+      "name": "Management/Leadership"
     },
     {
-      "keywords": [],
+      "keywords": ["React", "Bootstrap", "Javascript", "Nginx", "Hosting"],
       "level": "Intermediate",
       "name": "Web Development"
     },
     {
-      "keywords": [],
-      "level": "Experienced",
-      "name": "DevOPs"
-    },
-    {
-      "keywords": [],
+      "keywords": ["C++", "Go", "Shell", "ARM", "Python", "Metaheuristics", "Java", "Linux", "Git", "Static Analysis", "JetBrains Tools"],
       "level": "Intermediate",
-      "name": "Software Engineering"
-    }
+      "name": "Software Development"
+    },
+	  {
+		  "keywords": ["Virtualization", "Kubernetes", "Ansible", "Jenkins", "Terraform", "CI/CD", "Packaging Management", "Docker", "Google Cloud", "AWS", "GPU"],
+		  "level": "Master",
+		  "name": "DevOps"
+	  }
   ],
   "volunteer": [],
   "work": [
     {
       "company": "Nyriad",
-      "endDate": "Present",
       "highlights": [
-        "Building the LUCE LiDAR Cloud stack for Scion",
-        "Product Managing multiple internal areas",
-        "Building new technology in Cambridge"
+        "• LUCE a containerized GPU data-science stack for Scion to process its New Zealand LiDAR data",
+        "• Nsulate integrations into distributed storage systems",
+        "• Various internal tools and dashboards for developers",
+		  "• https://www.slideshare.net/slideshow/embed_code/key/LpWNUVquEE8B5A"
       ],
-      "position": "Software Developer",
+      "position": "Software Developer, Development Lead, Sales Engineer",
       "startDate": "2014-09-12",
-      "summary": "NYRIAD™ is an information technology company specializing in advanced storage solutions for big data and high performance computing. Our products are designed to solve storage, bandwidth, computing performance and power problems for the world’s most performance demanding IT projects and systems integrators by delivering performance exceeding anything possible with traditional IT solutions.",
+      "summary": "One of the first to join, have been actively involed throughout the entire journey. Part of Product Management; Working on strategy, feature definition, road-mapping and release process.",
       "website": "https://nyriad.com"
     }
-  ]
+  ],
+  "meta": {
+    	"theme": "onepage"
+  }
 }
