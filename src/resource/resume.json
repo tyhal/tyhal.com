@@ -3,22 +3,22 @@
     {
       "awarder": "Professor Geoff Holmes",
       "date": "2014-11-01",
-      "summary": "Received the scholarship for being in the top 10 taking a Computer Science exam requiring both practical and theory, letting me skip from Year 12 High School to Second Year University Papers",
+      "summary": "Received the scholarship for being amongst the top 10 Computer Science exam candidates, Allowing me to enter University a year earlier",
       "title": "2014 Computer Science Scholarship"
     }
   ],
   "basics": {
     "email": "t.w.hale32@gmail.com",
-    "label": "Founding member NYRIAD™ Limited",
+    "label": "Software Engineer",
     "location": {
       "address": "",
-      "city": "",
-      "countryCode": "nz",
+      "city": "Hamilton",
+      "countryCode": "NZ",
       "postalCode": "",
       "region": "Waikato"
     },
-    "name": "Tyler W Hale",
-    "phone": "+64224253486",
+    "name": "Tyler Hale",
+    "phone": "+64 224253486",
     "picture": "https://render.bitstrips.com/v2/cpanel/e4f91d37-026a-44d0-91ea-b26cfdaa34a7-2b3e9ea9-00a9-46eb-a2a4-78a44de4f18a-v1.png?transparent=1&palette=1",
     "profiles": [
       {
@@ -32,87 +32,124 @@
         "username": "tyhal"
       }
     ],
-    "summary": "• Developer who likes to explore different areas of programming, you will typically see me trying out faster and more automated ways to improve CI/CD, machine infrastructure and anything else that causes developer friction.\r\n\r\n• Heavily involved in building infrastructure that supports Nvidia GPUs as well as effective storage and data science stacks that use them. This lead me to following Dev-Ops practises and has been a key aspect of working with tools such as Kubernetes, Kibana, Docker, Terraform, Ansible, and Jenkins.\r\n\r\n• Started programming in high-school, leaving a year early with a scholarship to Waikato University while simultaneously being part of building Nyriad. I have actively jumped into new and existing projects where I have helped with leadership, management, and development problem solving.",
+    "summary": "Started programming in high-school, leaving a year early with a scholarship to Waikato University while simultaneously being part of building Nyriad. Actively jumped into new and existing projects which required leadership, management, and problem solving • Developer who likes to explore different areas of programming, typically found trying out faster and automated ways to improve CI/CD, machine infrastructure and anything that causes developer friction • Heavily involved in building infrastructure that supports Nvidia GPUs, including effective storage and data science stacks that use them • This lead to following Dev-Ops practices and has been a key aspect of working with tools such as Kubernetes, Kibana, Docker, Terraform, Ansible, and Jenkins.",
     "website": "http://tyhal.com"
   },
   "education": [
     {
       "area": "Computer Science",
       "courses": [
-          "Artificial Intelligence Techniques and Applications - COMP316-16A",
-          "Computer Communications - COMP202-15B",
-		  "Computer Systems - COMP200-15A",
-		  "Data Stream Mining - COMP523-17A",
-		  "Design and Analysis of Algorithms - COMP317-17A",
-		  "Extremely Parallel Programming - COMP553-16A",
-		  "Introduction to 3D Modelling and Animation - COMP221-15B ",
-		  "Metaheuristic Algorithms - COMP556-17A",
-		  "Linear Algebra - MATH253-16A",
-		  "Software Engineering Development - COMP241-15A",
-		  "Software Engineering Process - COMP242-15B",
-		  "Software Engineering Project - COMP314-17B",
-		  "Topics in Programming Languages - COMP313-16A "
+        "COMP316 Artificial Intelligence Techniques and Applications",
+        "COMP202 Computer Communications",
+        "COMP200 Computer Systems",
+        "COMP523 Data Stream Mining",
+        "COMP317 Design and Analysis of Algorithms",
+        "COMP553 Extremely Parallel Programming",
+        "COMP221 Introduction to 3D Modelling and Animation",
+        "COMP556 Metaheuristic Algorithms",
+        "MATH253 Linear Algebra",
+        "COMP241 Software Engineering Development",
+        "COMP242 Software Engineering Process",
+        "COMP314 Software Engineering Project",
+        "COMP313 Topics in Programming Languages"
       ],
       "endDate": "2018-06-01",
       "gpa": "",
       "institution": "University of Waikato",
       "startDate": "2015-01-01",
-      "studyType": "Bachelor"
+      "studyType": "Bachelor of Science"
     }
   ],
   "interests": [],
-  "languages": [
-    {
-      "fluency": "Native speaker",
-      "language": "English"
-    }
-  ],
+  "meta": {
+    "theme": "onepage"
+  },
   "publications": [],
   "references": [],
   "skills": [
-	  {
-		  "keywords": ["ISCSI", "Block", "HDFS", "Ceph", "RAID", "Systems Design"],
-		  "level": "Intermediate",
-		  "name": "Storage"
-	  },
     {
-      "keywords": ["Aha! Product Management", "Jira", "Project Management", "Development Lead", "Solutions Design"],
+      "keywords": [
+        "ISCSI",
+        "Block",
+        "HDFS",
+        "Ceph",
+        "RAID",
+        "Systems Design"
+      ],
+      "level": "Intermediate",
+      "name": "Storage"
+    },
+    {
+      "keywords": [
+        "Aha! Product Management",
+        "Jira",
+        "Project Management",
+        "Development Lead",
+        "Solutions Design"
+      ],
       "level": "Intermediate",
       "name": "Management/Leadership"
     },
     {
-      "keywords": ["React", "Bootstrap", "Javascript", "Nginx", "Hosting"],
+      "keywords": [
+        "React",
+        "Bootstrap",
+        "Javascript",
+        "Nginx",
+        "Hosting"
+      ],
       "level": "Intermediate",
       "name": "Web Development"
     },
     {
-      "keywords": ["C++", "Go", "Shell", "ARM", "Python", "Metaheuristics", "Java", "Linux", "Git", "Static Analysis", "JetBrains Tools"],
+      "keywords": [
+        "C++",
+        "Go",
+        "Shell",
+        "ARM",
+        "Python",
+        "Metaheuristics",
+        "Java",
+        "Linux",
+        "Git",
+        "Static Analysis",
+        "JetBrains Tools"
+      ],
       "level": "Intermediate",
       "name": "Software Development"
     },
-	  {
-		  "keywords": ["Virtualization", "Kubernetes", "Ansible", "Jenkins", "Terraform", "CI/CD", "Packaging Management", "Docker", "Google Cloud", "AWS", "GPU"],
-		  "level": "Master",
-		  "name": "DevOps"
-	  }
+    {
+      "keywords": [
+        "Virtualization",
+        "Kubernetes",
+        "Ansible",
+        "Jenkins",
+        "Terraform",
+        "CI/CD",
+        "Packaging Management",
+        "Docker",
+        "Google Cloud",
+        "AWS",
+        "GPU"
+      ],
+      "level": "Master",
+      "name": "DevOps"
+    }
   ],
   "volunteer": [],
   "work": [
     {
       "company": "Nyriad",
       "highlights": [
-        "• LUCE a containerized GPU data-science stack for Scion to process its New Zealand LiDAR data",
-        "• Nsulate integrations into distributed storage systems",
-        "• Various internal tools and dashboards for developers",
-		  "• https://www.slideshare.net/slideshow/embed_code/key/LpWNUVquEE8B5A"
+        "LUCE a containerized GPU data-science stack for Scion to process its New Zealand LiDAR data",
+        "Nsulate integrations into distributed storage systems",
+        "Various internal tools and dashboards for developers",
+        "https://www.slideshare.net/slideshow/embed_code/key/LpWNUVquEE8B5A"
       ],
       "position": "Software Developer, Development Lead, Sales Engineer",
       "startDate": "2014-09-12",
-      "summary": "One of the first to join, have been actively involed throughout the entire journey. Part of Product Management; Working on strategy, feature definition, road-mapping and release process.",
+      "summary": "One of the first to join, have been actively involved throughout the entire journey. Part of Product Management; Working on strategy, feature definition, road-mapping and release process.",
       "website": "https://nyriad.com"
     }
-  ],
-  "meta": {
-    	"theme": "onepage"
-  }
+  ]
 }
