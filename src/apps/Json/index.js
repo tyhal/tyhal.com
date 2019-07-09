@@ -18,22 +18,22 @@ class JsonResume extends Component {
       </CardBody>
       <CardBody>
         <ReactJson src={this.props.resume} theme={{
-          base00: '#282a36',
+          base00: '#1f212d',
           base01: '#44475a',
           base02: '#44475a',
           base03: '#44475a',
-          base04: '#50fa7b',
-          base05: '#ff5555',
-          base06: '#ff5555',
-          base07: '#f1fa8c',
+          base04: '#3ec175',
+          base05: '#E27D60',
+          base06: '#E27D60',
+          base07: '#0dc1c1',
           base08: '#ffb86c',
-          base09: '#ff79c6',
-          base0A: '#ff79c6',
-          base0B: '#ff79c6',
+          base09: '#f7cf56',
+          base0A: '#f7cf56',
+          base0B: '#f7cf56',
           base0C: '#ffb86c',
           base0D: '#44475a',
-          base0E: '#ff5555',
-          base0F: '#f1fa8c'
+          base0E: '#E27D60',
+          base0F: '#0dc1c1'
         }} />
       </CardBody>
     </Card>)
