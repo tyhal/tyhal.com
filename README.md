@@ -1,6 +1,8 @@
 # tyhal.com
 
 [![Dependency Status](https://david-dm.org/tyhal/tyhal.com.svg?theme=shields.io)](https://david-dm.org/tyhal/tyhal.com)
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/tyhal/tyhal.com.svg)](https://hub.docker.com/r/tyhal/tyhal.com)
 
 A JSON Driven Static Website on AWS
 
