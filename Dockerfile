@@ -28,7 +28,7 @@ HEALTHCHECK CMD curl -f http://localhost:80 || exit 1
 
 EXPOSE 80
 
-COPY nginx.conf /etc/nginx/nginx.conf
+COPY conf/nginx.conf /etc/nginx/nginx.conf
 
 COPY --from=buildlayer /repo/build /site/build
 

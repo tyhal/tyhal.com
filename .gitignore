@@ -316,4 +316,4 @@ src/gencss
 build/
 
 .terraform
-terraform/plan
+deploy/plan
