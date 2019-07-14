@@ -7,7 +7,7 @@ import JsonResume from './apps/Json'
 import Food from './apps/Food'
 import Recipe from './apps/Food/components/Recipe'
 import Recipes from './apps/Food/components/Recipes'
-import Graph from './apps/PlotTest'
+import Graph from './apps/Charts'
 
 class TyHalRouter extends Component {
   render () {
