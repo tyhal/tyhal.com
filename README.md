@@ -27,3 +27,9 @@ You will need to go into `terraform/static-website.tf` and change the bucket and
     
     script/deploy
 ```
+
+---
+
+## Tech Debt
+
+[![](https://codescene.io/projects/5221/status.svg) Get more details at **codescene.io**.](https://codescene.io/projects/5221/jobs/latest-successful/results)
