@@ -16,7 +16,7 @@
     "react-dom": "16.8.6",
     "react-history": "0.18.2",
     "react-json-view": "1.19.1",
-    "react-router": "3.2.3",
+    "react-router": "5.0.1",
     "react-scripts": "3.0.1",
     "reactstrap": "8.0.0"
   },
