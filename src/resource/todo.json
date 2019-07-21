@@ -1,5 +1,6 @@
 {
   "DevOps, Cloud, Machine Learning -> AIOps": false,
+  "account showcase": true,
   "big list of tools for building stuff": false,
   "blog post area": false,
   "business card re-render": false,
@@ -25,6 +26,5 @@
   "skills graph nodes colored by completion": false,
   "summary at top of main page": true,
   "terriyaki chicken ": true,
-	"account showcase": true,
   "zsh is cool": false
 }

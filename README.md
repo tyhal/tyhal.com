@@ -28,7 +28,7 @@ You will need to go into `terraform/static-website.tf` and change the bucket and
     script/deploy
 ```
 
----
+* * *
 
 ## Tech Debt
 

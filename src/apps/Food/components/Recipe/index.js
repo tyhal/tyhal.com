@@ -13,7 +13,7 @@ class Recipe extends Component {
 
   // render
   render () {
-    const sel = Recipe.baseName(this.props.location.pathname)
+    const sel = Recipe.baseName(this.props.match.url)
     const recipe = this.props.recipes[sel]
     return (<Row>
       <Col xl={12} lg={12} md={12}>

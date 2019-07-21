@@ -9,7 +9,7 @@ import Social from './components/Social'
 // This class should show all the
 class Basics extends Component {
   render () {
-		return (<Card>
+    return (<Card>
       <CardHeader>
         <CardTitle>My Basic Summary</CardTitle>
         <CardSubtitle>{this.props.basics.label}</CardSubtitle>
