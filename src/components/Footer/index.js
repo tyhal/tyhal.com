@@ -3,7 +3,7 @@ import * as React from 'react'
 class NavBar extends React.Component {
   render () {
     return (
-      <div className='row' style={{ 'marginTop': 20 }}>
+      <div className='row' style={{ marginTop: 20 }}>
         <div className='col-md-6' style={{ textAlign: 'left' }}>
           <span>&copy; 2019 </span>
           <a href={this.props.website}>{this.props.name}</a>

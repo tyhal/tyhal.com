@@ -3,6 +3,7 @@ ignore:
   - node_modules
   - build
   - src/gencss
+  - package-lock.json
   # Docker regex is incorrect
   - .idea/runConfigurations/Dockerfile.xml
 proj_dirs: []
