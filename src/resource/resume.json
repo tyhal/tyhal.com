@@ -19,7 +19,8 @@
     },
     "name": "Tyler Hale",
     "phone": "+64 224253486",
-    "picture": "https://render.bitstrips.com/v2/cpanel/e4f91d37-026a-44d0-91ea-b26cfdaa34a7-2b3e9ea9-00a9-46eb-a2a4-78a44de4f18a-v1.png?transparent=1&palette=1",
+    "picture": "https://i.imgur.com/08O8UwK.png",
+		"bitmoji": "https://render.bitstrips.com/v2/cpanel/e4f91d37-026a-44d0-91ea-b26cfdaa34a7-2b3e9ea9-00a9-46eb-a2a4-78a44de4f18a-v1.png?transparent=1&palette=1",
     "profiles": [
       {
         "network": "Linkedin",
@@ -32,7 +33,7 @@
         "username": "tyhal"
       }
     ],
-    "summary": "Started programming in high-school, leaving a year early with a scholarship to Waikato University while simultaneously being part of building Nyriad. Actively jumped into new and existing projects which required leadership, management, and problem solving • Developer who likes to explore different areas of programming, typically found trying out faster and automated ways to improve CI/CD, machine infrastructure and anything that causes developer friction • Heavily involved in building infrastructure that supports Nvidia GPUs, including effective storage and data science stacks that use them • This lead to following Dev-Ops practices and has been a key aspect of working with tools such as Kubernetes, Kibana, Docker, Terraform, Ansible, and Jenkins.",
+    "summary": "Started programming in high-school, leaving a year early with a scholarship to Waikato University while simultaneously being part of building Nyriad • Developer who likes to explore different areas of building products • Typically found trying out automated and faster ways to improve: CI/CD, machine infrastructure, scalability and anything else that causes developer friction • Actively jumping into new and existing projects which require leadership, management, and problem solving • Heavily involved in building infrastructure that supports Nvidia GPUs, including effective storage and data science stacks that use them • Follower of the Twelve-Factor App and the CNCF for Dev-Ops practices",
     "website": "http://tyhal.com"
   },
   "education": [
@@ -60,7 +61,7 @@
   ],
   "interests": [],
   "meta": {
-    "theme": "onepage"
+    "theme": "kendall"
   },
   "projects": [
     {
@@ -86,22 +87,22 @@
   "skills": [
     {
       "keywords": [
-        "Virtualization",
-        "Kubernetes",
-        "Ansible",
-        "Jenkins",
-        "Terraform",
-        "Prometheus",
-        "ELK Stack",
-        "CI/CD",
-        "Package Management",
-        "Distributed Systems",
-        "Docker",
-        "High Availability",
-        "Google Cloud Platform",
-        "Amazon Web Services",
-        "Networking",
-        "GPU"
+				"Kubernetes",
+				"Terraform",
+				"Jenkins",
+				"Continuous Delivery",
+				"Package Management",
+				"Distributed Systems",
+				"Ansible",
+				"High Availability",
+				"Google Cloud Platform",
+				"Amazon Web Services",
+				"Virtualization",
+				"GPU Related Workloads",
+				"Prometheus",
+				"ELK Stack",
+				"Docker",
+				"Networking"
       ],
       "level": "Expert",
       "name": "DevOps"
@@ -170,17 +171,17 @@
       "highlights": [
         "Development Lead for LUCE, a containerized GPU data-science stack for Scion to process its New Zealand LiDAR data",
         "Presentation paper for the LUCE stack, Where I am referenced: https://www.slideshare.net/slideshow/embed_code/key/LpWNUVquEE8B5A",
-        "Collaborated with external technology leaders in R&D projects",
+        "Collaborated with external technology leaders and customers in R&D projects",
         "Directed release pipelines for components and products",
         "Developed data processing integrations into distributed storage including HDFS and Ceph",
         "Developed infrastructure projects requiring configuration as code and custom Ansible modules",
-        "Created and managed Kubernetes clusters on AWS using terraform",
-        "Experience with Nvidia K1, X1, and X2 dev kits, including container workloads",
+        "Created and managed Kubernetes clusters on AWS using terraform and Baremetal using Rancher",
+        "Experience with Nvidia K1, X1, and X2 ARM based development kits",
         "Developed the internal C++ Packaging system and management of Cuda libaries using Conan",
         "Developed internal dashboards for metrics and tracking",
         "Developed internal tools for automation, build processes and code static analysis"
       ],
-      "position": "Software Developer, Development Lead, Sales Engineer",
+      "position": "Software Developer, Development Lead, DevOps Consultant, Sales Engineer",
       "startDate": "2014-09-12",
       "summary": "One of the first to join, having been actively involved throughout the entire journey. Part of product management; working on strategy, feature definition, road-mapping and release process.",
       "website": "https://nyriad.com"

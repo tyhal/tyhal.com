@@ -15,7 +15,7 @@ class Basics extends Component {
         <CardSubtitle>{this.props.basics.label}</CardSubtitle>
       </CardHeader>
       <CardBody>
-        <CardText><img align={'right'} className='rounded-circle' alt='profile' width={150} height={150} src={this.props.basics.picture} /></CardText>
+        <CardText><img align={'right'} className='rounded-circle' alt='profile' width={150} height={150} src={this.props.basics.bitmoji} /></CardText>
         <CardText>Currently residing in the {this.props.basics.location.region} {<ReactCountryFlag
           code={this.props.basics.location.countryCode} svg />}</CardText>
         <CardText>{this.props.basics.summary}</CardText>
