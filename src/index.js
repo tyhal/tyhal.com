@@ -14,6 +14,7 @@ import Graph from './apps/Charts'
 import { BrowserRouter as HashRouter, Route, Switch } from 'react-router-dom'
 
 import resume from './resource/resume.json'
+import { Container } from "reactstrap";
 
 export default class Root extends React.Component {
   // render
@@ -23,7 +24,7 @@ export default class Root extends React.Component {
         <NavBar
           picture={resume.basics.picture}
           name={resume.basics.name} />
-        <div className='container'>
+        <Container>
           <Switch>
             <Route path='/' exact render={props => <Basics {...props} resume={resume} />} />
             <Route path='/graph/' component={Graph} />
@@ -31,7 +32,7 @@ export default class Root extends React.Component {
             <Route path='/json/' render={props => <JsonResume {...props} resume={resume} />} />
             <Route path='*' component={NotFound} />
           </Switch>
-        </div>
+        </Container>
         <Footer
           website={resume.basics.website}
           name={resume.basics.name} />
