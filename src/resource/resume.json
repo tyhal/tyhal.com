@@ -98,7 +98,7 @@
 				"Google Cloud Platform",
 				"Amazon Web Services",
 				"Virtualization",
-				"GPU Related Workloads",
+				"GPU Workloads",
 				"Prometheus",
 				"ELK Stack",
 				"Docker",
@@ -177,7 +177,7 @@
         "Developed infrastructure projects requiring configuration as code and custom Ansible modules",
         "Created and managed Kubernetes clusters on AWS using terraform and Baremetal using Rancher",
         "Experience with Nvidia K1, X1, and X2 ARM based development kits",
-        "Developed the internal C++ Packaging system and management of Cuda libaries using Conan",
+        "Implemented the C++ Packaging system and management of Cuda libaries using Conan",
         "Developed internal dashboards for metrics and tracking",
         "Developed internal tools for automation, build processes and code static analysis"
       ],
