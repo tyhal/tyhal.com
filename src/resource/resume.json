@@ -170,7 +170,8 @@
       "company": "Nyriad",
       "highlights": [
         "Development Lead for LUCE, a containerized GPU data-science stack for Scion to process its New Zealand LiDAR data",
-        "Presentation paper for the LUCE stack, Where I am referenced: https://www.slideshare.net/slideshow/embed_code/key/LpWNUVquEE8B5A",
+        "Part of product management; working on strategy, feature definition, road-mapping and release process",
+	"Presentation paper for the LUCE stack, Where I am referenced: https://www.slideshare.net/slideshow/embed_code/key/LpWNUVquEE8B5A",
         "Collaborated with external technology leaders and customers in R&D projects",
         "Directed release pipelines for components and products",
         "Developed data processing integrations into distributed storage including HDFS and Ceph",
@@ -183,7 +184,7 @@
       ],
       "position": "Software Developer, Development Lead, DevOps Consultant, Sales Engineer",
       "startDate": "2014-09-12",
-      "summary": "One of the first to join, having been actively involved throughout the entire journey. Part of product management; working on strategy, feature definition, road-mapping and release process.",
+      "summary": "One of the first to join, seeing the company grow from its first customer to multiple",
       "website": "https://nyriad.com"
     }
   ]
