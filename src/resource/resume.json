@@ -40,17 +40,17 @@
     {
       "area": "Computer Science",
       "courses": [
-        "COMP316 Artificial Intelligence Techniques and Applications",
-        "COMP202 Computer Communications",
-        "COMP200 Computer Systems",
-        "COMP523 Data Stream Mining",
-        "COMP317 Design and Analysis of Algorithms",
         "COMP553 Extremely Parallel Programming",
         "COMP556 Metaheuristic Algorithms",
-        "COMP241 Software Engineering Development",
-        "COMP242 Software Engineering Process",
+        "COMP523 Data Stream Mining",
         "COMP314 Software Engineering Project",
         "COMP313 Topics in Programming Languages"
+        "COMP316 Artificial Intelligence Techniques and Applications",
+        "COMP317 Design and Analysis of Algorithms",
+        "COMP202 Computer Communications",
+        "COMP200 Computer Systems",
+        "COMP241 Software Engineering Development",
+        "COMP242 Software Engineering Process"
       ],
       "endDate": "2018-06-01",
       "gpa": "",
@@ -120,7 +120,7 @@
         "Git",
         "Apache Spark",
         "Metaheuristics",
-        "Code Security Scanning",
+        "Security Scanning",
         "Static Analysis",
         "JetBrains Tools",
         "Solutions Design"
