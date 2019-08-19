@@ -17,7 +17,7 @@ RUN sh script/test
 
 # New image layer so we don't put our deps folder into prod container
 
-FROM nginx:1.17-alpine
+FROM nginx:1.17.3-alpine
 
 LABEL maintainer="Tyler Hale <t.w.hale32@gmail.com>"
 
