@@ -8,12 +8,12 @@ COPY package-lock.json /repo/package-lock.json
 RUN npm install
 
 # Only grab what is needed to build
-COPY script/test /repo/script/test
 COPY public /repo/public
 COPY src /repo/src
 
 ENV NODE_ENV production
-RUN sh script/test
+RUN npm run build-css
+RUN npm run build
 
 # New image layer so we don't put our deps folder into prod container
 
