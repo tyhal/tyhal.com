@@ -8,6 +8,7 @@
     }
   ],
   "basics": {
+    "bitmoji": "https://render.bitstrips.com/v2/cpanel/e4f91d37-026a-44d0-91ea-b26cfdaa34a7-2b3e9ea9-00a9-46eb-a2a4-78a44de4f18a-v1.png?transparent=1&palette=1",
     "email": "t.w.hale32@gmail.com",
     "label": "Software Engineer",
     "location": {
@@ -20,7 +21,6 @@
     "name": "Tyler Hale",
     "phone": "+64 224253486",
     "picture": "https://i.imgur.com/08O8UwK.png",
-    "bitmoji": "https://render.bitstrips.com/v2/cpanel/e4f91d37-026a-44d0-91ea-b26cfdaa34a7-2b3e9ea9-00a9-46eb-a2a4-78a44de4f18a-v1.png?transparent=1&palette=1",
     "profiles": [
       {
         "network": "Linkedin",
@@ -87,22 +87,22 @@
   "skills": [
     {
       "keywords": [
-				"Kubernetes",
-				"Terraform",
-				"Jenkins",
-				"Continuous Delivery",
-				"Package Management",
-				"Distributed Systems",
-				"Ansible",
-				"High Availability",
-				"Google Cloud Platform",
-				"Amazon Web Services",
-				"Virtualization",
-				"GPU Workloads",
-				"Prometheus",
-				"ELK Stack",
-				"Docker",
-				"Networking"
+        "Kubernetes",
+        "Terraform",
+        "Jenkins",
+        "Continuous Delivery",
+        "Package Management",
+        "Distributed Systems",
+        "Ansible",
+        "High Availability",
+        "Google Cloud Platform",
+        "Amazon Web Services",
+        "Virtualization",
+        "GPU Workloads",
+        "Prometheus",
+        "ELK Stack",
+        "Docker",
+        "Networking"
       ],
       "level": "Expert",
       "name": "DevOps"
@@ -171,7 +171,7 @@
       "highlights": [
         "Development Lead for LUCE, a containerized GPU data-science stack for Scion to process its New Zealand LiDAR data",
         "Presentation paper for the LUCE stack, Where I am referenced: https://www.slideshare.net/slideshow/embed_code/key/LpWNUVquEE8B5A",
-	"Part of product management; working on strategy, feature definition, road-mapping and release process",
+        "Part of product management; working on strategy, feature definition, road-mapping and release process",
         "Collaborated with external technology leaders and customers in R&D projects",
         "Directed release pipelines for components and products",
         "Developed data processing integrations into distributed storage including HDFS and Ceph",

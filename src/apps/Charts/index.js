@@ -125,22 +125,23 @@ const options2 = {
 class Charts extends Component {
   // render
   render () {
-    return (<Jumbotron>
-      <h1>Charts [ TODO ]</h1>
-      <p>Gotta work out what to render here based off the profile data</p>
-      <Card>
-        <HighchartsReact
-          highcharts={Highcharts}
-          options={options}
-        />
-      </Card>
-      <Card>
-        <HighchartsReact
-          highcharts={Highcharts}
-          options={options2}
-        />
-      </Card>
-    </Jumbotron>)
+    return (
+      <Jumbotron>
+        <h1>Charts [ TODO ]</h1>
+        <p>Gotta work out what to render here based off the profile data</p>
+        <Card>
+          <HighchartsReact
+            highcharts={Highcharts}
+            options={options}
+          />
+        </Card>
+        <Card>
+          <HighchartsReact
+            highcharts={Highcharts}
+            options={options2}
+          />
+        </Card>
+      </Jumbotron>)
   }
 }
 

@@ -35,6 +35,6 @@ You will need to go into `terraform/static-website.tf` and change the bucket and
 
 [![](https://codescene.io/projects/5221/status.svg) Get more details at **codescene.io**.](https://codescene.io/projects/5221/jobs/latest-successful/results)
 
-
 ## License
+
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Ftyhal%2Ftyhal.com.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Ftyhal%2Ftyhal.com?ref=badge_large)

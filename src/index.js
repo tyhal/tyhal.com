@@ -11,19 +11,20 @@ import JsonResume from './apps/Json'
 import Food from './apps/Food'
 import Graph from './apps/Charts'
 
-import { BrowserRouter as HashRouter, Route, Switch } from 'react-router-dom'
+import { BrowserRouter, Route, Switch } from 'react-router-dom'
 
 import resume from './resource/resume.json'
-import { Container } from "reactstrap";
+import { Container } from 'reactstrap'
 
 export default class Root extends React.Component {
   // render
   render () {
     return (
-      <HashRouter className='app sidebar-show aside-menu-show'>
+      <BrowserRouter className='app sidebar-show aside-menu-show'>
         <NavBar
           picture={resume.basics.picture}
-          name={resume.basics.name} />
+          name={resume.basics.name}
+        />
         <Container>
           <Switch>
             <Route path='/' exact render={props => <Basics {...props} resume={resume} />} />
@@ -35,8 +36,9 @@ export default class Root extends React.Component {
         </Container>
         <Footer
           website={resume.basics.website}
-          name={resume.basics.name} />
-      </HashRouter>
+          name={resume.basics.name}
+        />
+      </BrowserRouter>
     )
   }
 }

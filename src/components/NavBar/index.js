@@ -10,7 +10,7 @@ class NavBar extends React.Component {
         <NavbarBrand href='/' style={{ marginLeft: '10px' }}>{this.props.name}</NavbarBrand>
         <Nav className='ml-auto' navbar>
           {routes.map(route =>
-            <NavItem>
+            <NavItem key={route}>
               <Link to={route}>{route}</Link>
             </NavItem>)}
         </Nav>
