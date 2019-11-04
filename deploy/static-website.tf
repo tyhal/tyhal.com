@@ -27,7 +27,7 @@ resource "aws_s3_bucket" "website" {
         "HttpErrorCodeReturnedEquals": "404"
     },
     "Redirect": {
-        "ReplaceKeyPrefixWith": "index.html"
+        "ReplaceKeyPrefixWith": "#/"
     }
 }]
 EOF

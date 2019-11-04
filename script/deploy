@@ -20,8 +20,8 @@ case "$plan" in
 	;;
 "2")
 
-	echo "You have 10 seconds to cancel deployment"
-	sleep 10
+	echo "You have 30 seconds to cancel deployment"
+	sleep 30
 	terraform apply plan
 	;;
 *)
