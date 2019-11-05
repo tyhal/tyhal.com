@@ -4,7 +4,7 @@ import RecipeComponent from './components/RecipeComponent'
 import CardHeader from 'reactstrap/es/CardHeader'
 import CardTitle from 'reactstrap/es/CardTitle'
 import CardSubtitle from 'reactstrap/es/CardSubtitle'
-import NotFound from "../../../NotFound";
+import NotFound from '../../../NotFound'
 
 // app component
 class Recipe extends Component {
@@ -18,7 +18,7 @@ class Recipe extends Component {
     const recipe = this.props.recipes[sel]
     console.log(recipe)
     if (recipe === undefined) {
-      return <NotFound/>
+      return <NotFound />
     }
     return (
       <Row>
