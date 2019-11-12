@@ -1,4 +1,3 @@
-
 // Navbar ======================================================================
 
 .navbar {
@@ -33,8 +32,18 @@
     border-width: 3px 0 0 0;
   }
 }
+
 .nav-item {
   margin-right: 2rem;
+}
+
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;..");
+}
+
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;..");
 }
 
 // Buttons =====================================================================
@@ -146,6 +155,7 @@ th {
   .h1, .h2, .h3, .h4, .h5, .h6 {
     color: inherit;
   }
+
   border-color: $trim;
 }
 
@@ -154,6 +164,7 @@ th {
     color: $white;
     font-size: $h5-font-size;
   }
+
   &-header {
     font-size: $h6-font-size;
     color: $headings-color;
@@ -164,12 +175,13 @@ th {
     text-transform: uppercase;
     letter-spacing: 3px;
   }
+
   margin: 30px 0px 0px 0px;
 }
 
 // Jumbotron ======================================================================
 
-.jumbotron{
+.jumbotron {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0;
@@ -177,12 +189,12 @@ th {
 
 // Img =============================================================================
 
-.rounded-circle{
+.rounded-circle {
   background-color: $body-bg;
 }
 
 // Breadcrumb ======================================================================
 
-.breadcrumb{
+.breadcrumb {
   margin: 30px 0px 0px 0px;
 }

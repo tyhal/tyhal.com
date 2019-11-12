@@ -1,22 +1,26 @@
-import * as React from 'react'
+import React, { useState } from 'react'
 import { NavLink as Link } from 'react-router-dom'
-import { Nav, Navbar, NavbarBrand, NavItem } from 'reactstrap'
+import { Button, Collapse, Nav, Navbar, NavbarBrand, NavbarToggler, NavItem } from 'reactstrap'
 
-class NavBar extends React.Component {
-  render () {
-    const routes = ['/json', '/graph', '/food']
-    return (
-      <Navbar color='dark' light expand='md'>
-        <NavbarBrand href='/' style={{ marginLeft: '10px' }}>{this.props.name}</NavbarBrand>
+const NavBar = (props) => {
+  const [collapsed, setCollapsed] = useState(true)
+  const routes = ['/json', '/graph', '/food']
+  const toggleNavbar = () => setCollapsed(!collapsed)
+
+  return (
+    <Navbar expand='md'>
+      <NavbarBrand className='mr-auto' href='/' style={{ marginLeft: '10px' }}>{props.name}</NavbarBrand>
+      <NavbarToggler onClick={toggleNavbar} className='mr-2' />
+      <Collapse isOpen={!collapsed} navbar>
         <Nav className='ml-auto' navbar>
           {routes.map(route =>
             <NavItem key={route}>
-              <Link to={route}>{route}</Link>
+              <Link to={route}><Button block color='link'>{route}</Button></Link>
             </NavItem>)}
         </Nav>
-      </Navbar>
-    )
-  }
+      </Collapse>
+    </Navbar>
+  )
 }
 
 export default NavBar
