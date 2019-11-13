@@ -20,11 +20,17 @@ Costs me $0.50 (NZD) a month to host.
 
 Using terraform we can deploy our static website
 
-You will need to go into `terraform/static-website.tf` and change the bucket and key to something your own
+You will need to go into `deploy/static-website.tf` and change the bucket and key your own bucket to store the terraform config
+
+    terraform {
+      backend "s3" {
+        bucket =
+        key =
 
 ```bash
     export AWS_SECRET_ACCESS_KEY=
     export AWS_ACCESS_KEY_ID= 
+    export TF_VAR_domain_name=
     
     script/deploy
 ```
