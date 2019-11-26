@@ -6,7 +6,7 @@
     "not op_mini all"
   ],
   "dependencies": {
-    "bootstrap": "4.3.1",
+    "bootstrap": "4.4.0",
     "bootswatch": "4.3.1",
     "highcharts": "7.2.1",
     "highcharts-react-official": "2.2.2",
