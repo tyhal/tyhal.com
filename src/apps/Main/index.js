@@ -18,7 +18,7 @@ class Basics extends Component {
         <CardBody>
           <CardText>
             <img
-              align='right' className='rounded-circle' alt='profile' width={150} height={150}
+              align='right' className='rounded-circle' alt='profile' width={180} height={180}
               src={this.props.basics.bitmoji}
             />
           </CardText>

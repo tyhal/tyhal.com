@@ -8,7 +8,7 @@ const NavBar = (props) => {
   const toggleNavbar = () => setCollapsed(!collapsed)
 
   return (
-    <Navbar expand='md'>
+    <Navbar light expand='md'>
       <NavbarBrand className='mr-auto' href='/' style={{ marginLeft: '10px' }}>{props.name}</NavbarBrand>
       <NavbarToggler onClick={toggleNavbar} className='mr-2' />
       <Collapse isOpen={!collapsed} navbar>
