@@ -4,7 +4,7 @@ import Recipe from './components/Recipe'
 import Recipes from './components/Recipes'
 import recipesJson from '../../resource/recipes'
 
-import { Switch, Route, useRouteMatch } from 'react-router-dom'
+import { Route, Switch, useRouteMatch } from 'react-router-dom'
 
 function FoodRoute () {
   const match = useRouteMatch()

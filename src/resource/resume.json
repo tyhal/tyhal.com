@@ -8,7 +8,7 @@
     }
   ],
   "basics": {
-    "bitmoji": "https://render.bitstrips.com/v2/cpanel/e4f91d37-026a-44d0-91ea-b26cfdaa34a7-2b3e9ea9-00a9-46eb-a2a4-78a44de4f18a-v1.png?transparent=1&palette=1",
+    "bitmoji": "https://render.bitstrips.com/v2/cpanel/e4f91d37-026a-44d0-91ea-b26cfdaa34a7-2b3e9ea9-00a9-46eb-a2a4-78a44de4f18a-v1.png?transparent=1&palette=0",
     "email": "t.w.hale32@gmail.com",
     "label": "Software Engineer",
     "location": {
@@ -31,6 +31,11 @@
         "network": "Github",
         "url": "https://github.com/tyhal",
         "username": "tyhal"
+      },
+      {
+        "network": "Twitter",
+        "url": "https://twitter.com/tyhal_",
+        "username": "@tyhal_"
       }
     ],
     "summary": "Started programming in high-school, leaving a year early with a scholarship to Waikato University while simultaneously being part of building Nyriad • Developer who likes to explore different areas of building products • Typically found trying out automated and faster ways to improve: CI/CD, machine infrastructure, scalability and anything else that causes developer friction • Actively jumping into new and existing projects which require leadership, management, and problem solving • Heavily involved in building infrastructure that supports Nvidia GPUs, including effective storage and data science stacks that use them • Follower of the Twelve-Factor App and the CNCF for Dev-Ops practices",

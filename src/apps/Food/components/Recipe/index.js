@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
-import { Badge, Card, CardBody, CardImg, CardText, Col, ListGroup, ListGroupItem, Row } from 'reactstrap'
+import { Badge, CardBody, CardImg, CardText, Col, ListGroup, ListGroupItem, Row } from 'reactstrap'
 import RecipeComponent from './components/RecipeComponent'
 import CardHeader from 'reactstrap/es/CardHeader'
 import CardTitle from 'reactstrap/es/CardTitle'
 import CardSubtitle from 'reactstrap/es/CardSubtitle'
 import NotFound from '../../../NotFound'
+import TopLevelCard from '../../../../components/TopLevelCard'
 
 // app component
 class Recipe extends Component {
@@ -23,7 +24,7 @@ class Recipe extends Component {
     return (
       <Row>
         <Col xl={12} lg={12} md={12}>
-          <Card>
+          <TopLevelCard>
             <CardImg
               style={{ objectFit: 'cover' }} top width='100%'
               height='150px'
@@ -56,7 +57,8 @@ class Recipe extends Component {
                     <ListGroupItem key={ind}>{ind}</ListGroupItem>
                   )}
                   {recipe.components.map(com =>
-                    <ListGroupItem key={com}><Badge color='primary' pill>component</Badge> {com.needed} {com.name}</ListGroupItem>
+                    <ListGroupItem key={com}><Badge color='primary' pill>component</Badge> {com.needed} {com.name}
+                    </ListGroupItem>
                   )}
                 </ListGroup>
               </CardText>
@@ -67,7 +69,7 @@ class Recipe extends Component {
                 {recipe.notes.map(x => <p key={x}>{x}</p>)}
               </CardText>
             </CardBody>
-          </Card>
+          </TopLevelCard>
         </Col>
         {recipe.components.map(com =>
           <Col key={com} xl={6} lg={6} md={12}>

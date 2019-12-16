@@ -1,30 +1,33 @@
 import React, { Component } from 'react'
 import ReactJson from 'react-json-view'
-import { Card, CardBody, CardTitle, CardSubtitle, CardText, CardHeader } from 'reactstrap'
+import { CardBody, CardHeader, CardSubtitle, CardText, CardTitle } from 'reactstrap'
+import TopLevelCard from '../../components/TopLevelCard'
+import resume from '../../resource/resume.json'
 
-// const nautilusTheme = {
-//   base00: '#1f212d',
-//   base01: '#44475a',
-//   base02: '#44475a',
-//   base03: '#44475a',
-//   base04: '#3ec175',
-//   base05: '#E27D60',
-//   base06: '#E27D60',
-//   base07: '#0dc1c1',
-//   base08: '#ffb86c',
-//   base09: '#f7cf56',
-//   base0A: '#f7cf56',
-//   base0B: '#f7cf56',
-//   base0C: '#ffb86c',
-//   base0D: '#44475a',
-//   base0E: '#E27D60',
-//   base0F: '#0dc1c1'
-// }
+const nautilusTheme = {
+  // base00: '#1f212d', // Nautius
+  base00: '#3a3f44', // Custom
+  base01: '#44475a',
+  base02: '#44475a',
+  base03: '#44475a',
+  base04: '#3ec175',
+  base05: '#E27D60',
+  base06: '#E27D60',
+  base07: '#0dc1c1',
+  base08: '#ffb86c',
+  base09: '#f7cf56',
+  base0A: '#f7cf56',
+  base0B: '#f7cf56',
+  base0C: '#ffb86c',
+  base0D: '#44475a',
+  base0E: '#E27D60',
+  base0F: '#0dc1c1'
+}
 
 class JsonResume extends Component {
   render () {
     return (
-      <Card>
+      <TopLevelCard>
         <CardHeader>
           <CardTitle>My details in json form</CardTitle>
           <CardSubtitle>
@@ -39,10 +42,10 @@ class JsonResume extends Component {
         </CardBody>
         <CardBody>
           <ReactJson
-            src={this.props.resume} // theme={nautilusTheme}
+            src={resume} theme={nautilusTheme}
           />
         </CardBody>
-      </Card>)
+      </TopLevelCard>)
   }
 }
 

@@ -126,7 +126,7 @@ class Charts extends Component {
   // render
   render () {
     return (
-      <Jumbotron>
+      <Jumbotron className='mt-4 shadow'>
         <h1>Charts [ TODO ]</h1>
         <p>Gotta work out what to render here based off the profile data</p>
         <Card>
