@@ -24,7 +24,7 @@ class TodoList extends React.Component {
         <ListGroup>
           {Object.keys(todolist).map(item =>
             <ListGroupItem key={item} color='default'>
-              {((todolist[item]) ? <Badge color='primary' pill>done</Badge>
+              {((todolist[item]) ? <Badge color='success' pill>done</Badge>
                 : <Badge color='secondary' pill>todo</Badge>)}
               {'\t'}
               {item}

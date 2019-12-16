@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
-import { Badge, Card, CardBody, CardText, ListGroup, ListGroupItem } from 'reactstrap'
+import { Badge, CardBody, CardText, ListGroup, ListGroupItem } from 'reactstrap'
 import CardHeader from 'reactstrap/es/CardHeader'
 import CardTitle from 'reactstrap/es/CardTitle'
+import TopLevelCard from '../../../../../../components/TopLevelCard'
 
 // app component
 class RecipeComponent extends Component {
@@ -10,7 +11,7 @@ class RecipeComponent extends Component {
     const recipe = this.props.recipe
     return (
       <div>
-        <Card style={{ height: '100%' }}>
+        <TopLevelCard style={{ height: '100%' }}>
           <CardHeader>
             <CardTitle>{recipe.name}</CardTitle>
           </CardHeader>
@@ -28,7 +29,8 @@ class RecipeComponent extends Component {
                   <ListGroupItem key={ind}>{ind}</ListGroupItem>
                 )}
                 {recipe.components.map(com =>
-                  <ListGroupItem key={com}><Badge color='secondary' pill>component</Badge> {com.needed} {com.name}</ListGroupItem>
+                  <ListGroupItem key={com}><Badge color='secondary' pill>component</Badge> {com.needed} {com.name}
+                  </ListGroupItem>
                 )}
               </ListGroup>
             </CardText>
@@ -37,7 +39,7 @@ class RecipeComponent extends Component {
               {recipe.directions.map(x => <p key={x}>{x}</p>)}
             </CardText>
           </CardBody>
-        </Card>
+        </TopLevelCard>
         {recipe.components.map(com =>
           <RecipeComponent key={com} recipe={com} />
         )}

@@ -1,4 +1,4 @@
-FROM node:12.13.0 as buildlayer
+FROM node:13.3.0 as buildlayer
 
 # Only grab package.json and npm install
 # So that normal code changes don't trigger a redownload of node_modules
@@ -17,7 +17,7 @@ RUN npm run build
 
 # New image layer so we don't put our deps folder into prod container
 
-FROM nginx:1.17.5-alpine
+FROM nginx:1.17.6-alpine
 
 LABEL maintainer="Tyler Hale <t.w.hale32@gmail.com>"
 

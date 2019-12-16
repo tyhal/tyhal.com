@@ -30,11 +30,12 @@ case "$plan" in
 	;;
 esac
 
-cd ..
-npm install
-npm run build-css
-npm run build
-cd -
+(
+	cd ..
+	npm install
+	npm run build-css
+	npm run build
+)
 
 docker run --rm \
 	-e AWS_ACCESS_KEY_ID \

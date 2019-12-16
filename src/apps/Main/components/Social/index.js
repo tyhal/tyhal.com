@@ -1,12 +1,15 @@
 import * as React from 'react'
-import {
-  CardLink
-} from 'reactstrap'
+import { SocialIcon } from 'react-social-icons'
 
 class Social extends React.Component {
   render () {
     return (
-      <CardLink href={this.props.data.url}>{this.props.data.network}</CardLink>
+      <SocialIcon
+        url={this.props.data.url}
+        network={this.props.data.network.toLowerCase()}
+        style={{ margin: 4, height: 30, width: 30 }}
+        bgColor='#e9ecef'
+      />
     )
   }
 }

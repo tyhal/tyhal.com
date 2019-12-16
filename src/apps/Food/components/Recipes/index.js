@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
-import { CardBody, Card, ListGroup, ListGroupItem, CardHeader, CardTitle } from 'reactstrap'
+import { CardBody, CardHeader, CardTitle, ListGroup, ListGroupItem } from 'reactstrap'
 import ReactCountryFlag from 'react-country-flag'
+import TopLevelCard from '../../../../components/TopLevelCard'
 
 import links from '../../../../resource/recipes.links'
 
@@ -21,7 +22,7 @@ class Recipes extends Component {
   // render
   render () {
     return (
-      <Card>
+      <TopLevelCard>
         <CardHeader>
           <CardTitle>Recipes I use</CardTitle><span role='img' />🍜
         </CardHeader>
@@ -47,7 +48,7 @@ class Recipes extends Component {
             )}
           </ListGroup>
         </CardBody>
-      </Card>)
+      </TopLevelCard>)
   }
 }
 

@@ -6,7 +6,7 @@ terraform {
   required_version = ">= 0.12.3"
 
   backend "s3" {
-    //    NOTE: you will need to change these to your own
+    //    NOTE: you will need to change these to your own to store the terraform config
     bucket = "tyhal-terraform-state"
     key    = "website/tyhal.com.tfstate"
     region = "ap-southeast-2"
