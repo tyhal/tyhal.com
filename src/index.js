@@ -7,20 +7,20 @@ import Footer from './components/Footer'
 
 import Main from './apps/Main'
 import NotFound from './apps/NotFound'
-import JsonResume from './apps/Json'
+import Info from './apps/Info'
 import Food from './apps/Food'
 import { HashRouter, Route, Switch } from 'react-router-dom'
 
-import resume from './resource/resume.json'
+import resume from './resource/info.json'
 import { Container } from 'reactstrap'
 // import Graph from './apps/Charts'
 
 const Root = (props) => {
   const routes = [
-    { path: '/basics/', component: Main },
+    { path: '/home/', component: Main },
     // path='/graph/' component={Graph}
     { path: '/food/', component: Food },
-    { path: '/json/', component: JsonResume },
+    { path: '/info/', component: Info },
     { path: '*', component: NotFound }
   ]
   return (
