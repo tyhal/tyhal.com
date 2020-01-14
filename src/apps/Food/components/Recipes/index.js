@@ -24,7 +24,7 @@ class Recipes extends Component {
     return (
       <TopLevelCard>
         <CardHeader>
-          <CardTitle>Recipes I use</CardTitle><span role='img' />🍜
+          <CardTitle>Snack Overflow</CardTitle><span role='img' />🍜
         </CardHeader>
         <CardBody>
           <CardHeader>Hosted Here</CardHeader>
