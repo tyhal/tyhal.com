@@ -12,7 +12,7 @@ class Recipes extends Component {
     return (
       <ListGroupItem>
         <ReactCountryFlag
-          code={flag} svg
+          countryCode={flag} svg
         />
         <span style={{ 'margin-right': '10px' }} />
         {link}

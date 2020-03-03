@@ -28,7 +28,7 @@ const Root = (props) => {
       <NavBar
         routes={routes.filter(r => r.path[0] === '/').map(r => r.path)}
         picture={resume.basics.picture}
-        name={resume.basics.name}
+        name='tyha\.'
       />
       <Container className='md-4'>
         <Switch>

@@ -35,20 +35,19 @@ class Recipe extends Component {
               <CardSubtitle>Source: <a href={recipe.source}>{recipe.source}</a></CardSubtitle>
             </CardHeader>
             <CardBody>
-
               <CardText>
-                <div className='row'>
-                  <div className='col'><h6>Makes:</h6></div>
-                  <div className='col'>{recipe.makes} </div>
-                </div>
-                <div className='row'>
-                  <div className='col'><h6>Prep Time:</h6></div>
-                  <div className='col'> {recipe.prepTime}</div>
-                </div>
-                <div className='row'>
-                  <div className='col'><h6>Cook Time:</h6></div>
-                  <div className='col'>{recipe.cookTime}</div>
-                </div>
+                <Row>
+                  <Col><h6>Makes:</h6></Col>
+                  <Col>{recipe.makes} </Col>
+                </Row>
+                <Row>
+                  <Col><h6>Prep Time:</h6></Col>
+                  <Col> {recipe.prepTime}</Col>
+                </Row>
+                <Row>
+                  <Col><h6>Cook Time:</h6></Col>
+                  <Col>{recipe.cookTime}</Col>
+                </Row>
               </CardText>
               <CardText>
                 <h3>Ingredients</h3>

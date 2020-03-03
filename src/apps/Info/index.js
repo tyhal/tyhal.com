@@ -1,44 +1,130 @@
 import React, { Component } from 'react'
-import ReactJson from 'react-json-view'
-import { CardBody } from 'reactstrap'
-import TopLevelCard from '../../components/TopLevelCard'
 import info from '../../resource/info.json'
-
-const nautilusTheme = {
-  // base00: '#1f212d', // Nautius
-  base00: '#3a3f44', // Custom
-  base01: '#44475a',
-  base02: '#44475a',
-  base03: '#44475a',
-  base04: '#3ec175',
-  base05: '#E27D60',
-  base06: '#E27D60',
-  base07: '#0dc1c1',
-  base08: '#ffb86c',
-  base09: '#f7cf56',
-  base0A: '#f7cf56',
-  base0B: '#f7cf56',
-  base0C: '#ffb86c',
-  base0D: '#44475a',
-  base0E: '#E27D60',
-  base0F: '#0dc1c1'
-}
+import Basics from './components/Basics'
+import Contacts from './components/Contact'
+import {
+  CardBody,
+  CardHeader,
+  CardSubtitle,
+  CardText,
+  CardTitle,
+  Col,
+  Jumbotron,
+  ListGroup,
+  ListGroupItem,
+  Row
+} from 'reactstrap'
+import TopCard from '../../components/TopLevelCard'
 
 // TODO remove Iframe and replace functionality with react components
 class Info extends Component {
   render () {
-    const githubs = info.basics.profiles.filter(prof => prof.network === 'Github')
-    const externalInfo = 'https://registry.jsonresume.org/' + githubs[0].username
     return (
-      <TopLevelCard>
-        <CardBody>
-          {
-            (githubs.length > 0)
-              ? <iframe width='100%' height={(window.outerHeight * 2) + 100} src={externalInfo} />
-              : <ReactJson src={info} theme={nautilusTheme} />
-          }
-        </CardBody>
-      </TopLevelCard>)
+      <div>
+        <Row>
+          <Col>
+            <Jumbotron>
+              <h1>{info.basics.name}</h1>
+              <h4>{info.basics.label}</h4>
+            </Jumbotron>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <Basics title='About' basics={info.basics} />
+          </Col>
+          <Col>
+            <Contacts title='Contact' basics={info.basics} />
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            {info.work.map(
+              wk =>
+                <TopCard key={wk.company}>
+                  <CardHeader>
+                    <CardTitle>
+                      <h3>Work Experience</h3>
+                      {wk.company}
+                    </CardTitle>
+                    <CardSubtitle>
+                      {wk.startDate} - Present
+                    </CardSubtitle>
+                  </CardHeader>
+                  <CardBody>
+                    <CardTitle>
+                      {wk.position}
+                    </CardTitle>
+                    <CardText>
+                      {wk.summary}
+                    </CardText>
+                    <ListGroup>
+                      {wk.highlights.map(hl =>
+                        <ListGroupItem key={hl}>
+                          {hl}
+                        </ListGroupItem>)}
+                    </ListGroup>
+                  </CardBody>
+                </TopCard>
+            )}
+          </Col>
+          <Col>
+            {info.education.map(edu =>
+              <TopCard key={edu.institution}>
+                <CardHeader>
+                  <CardTitle>
+                    <h3>Education</h3>
+                    {edu.institution}
+                  </CardTitle>
+                  <CardSubtitle>
+                    {edu.startDate} - {edu.endDate}
+                  </CardSubtitle>
+
+                </CardHeader>
+                <CardBody>
+                  <CardTitle>
+                    {edu.studyType} in {edu.area}
+                  </CardTitle>
+                  <ListGroup>
+                    {edu.courses.map(crs =>
+                      <ListGroupItem key={crs}>
+                        {crs}
+                      </ListGroupItem>)}
+                  </ListGroup>
+                </CardBody>
+              </TopCard>
+            )}
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            {/*  TODO */}
+            {/*  <TopCard basics={info.basics}> */}
+            {/*    <CardHeader> */}
+            {/*      <CardTitle> */}
+            {/*        Awards */}
+            {/*      </CardTitle> */}
+            {/*    </CardHeader> */}
+            {/*    <CardBody> */}
+            {/*      sure */}
+            {/*    </CardBody> */}
+            {/*  </TopCard> */}
+            {/* </Col> */}
+            {/* <Col> */}
+            {/*  <TopCard basics={info.basics}> */}
+            {/*    <CardHeader> */}
+            {/*      <CardTitle> */}
+            {/*        Skills */}
+            {/*      </CardTitle> */}
+            {/*    </CardHeader> */}
+            {/*    <CardBody> */}
+            {/*      sure */}
+            {/*    </CardBody> */}
+            {/*  </TopCard> */}
+          </Col>
+        </Row>
+      </div>
+    )
   }
 }
 

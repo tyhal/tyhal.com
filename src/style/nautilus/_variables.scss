@@ -29,19 +29,17 @@ $dark: $black !default;
 
 $mark-bg: $black !default;
 
-$border-width: 5px;
-$border-radius: 5px;
-
-// ~~~ Shadows
+$border-width: 3px;
+$border-radius: 3px;
 
 $enable-shadows: true !default;
-$box-shadow-sm:               0 .125rem .25rem rgba($black, .3) !default; // 075
-$box-shadow:                  0 .5rem 1rem rgba($black, .4) !default; // 15
-$box-shadow-lg:               0 1rem 3rem rgba($black, .5) !default; // 175
+$box-shadow-sm:               0 .25rem .5rem rgba($black, .3) !default; // 075
+$box-shadow:                  0 0.5rem 1rem rgba($black, .4) !default; // 15
+$box-shadow-lg:               0 1rem 2rem rgba($black, .5) !default; // 175
 
 // ~~~ Fonts
 
-$font-size-base: 1.0rem !default;
+$font-size-base: 0.9rem !default;
 $font-size-sm: 0.8rem !default;
 
 $h1-font-size: 2.0rem !default;
