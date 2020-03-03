@@ -32,13 +32,17 @@ $mark-bg: $black !default;
 $border-width: 5px;
 $border-radius: 5px;
 
+// ~~~ Shadows
+
+$enable-shadows: true !default;
+$box-shadow-sm:               0 .125rem .25rem rgba($black, .3) !default; // 075
+$box-shadow:                  0 .5rem 1rem rgba($black, .4) !default; // 15
+$box-shadow-lg:               0 1rem 3rem rgba($black, .5) !default; // 175
+
 // ~~~ Fonts
 
-@import url(https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.206/distr/fira_code.css);
-$font-family-sans-serif: "Fira Code", "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
-
 $font-size-base: 1.0rem !default;
-$font-size-sm: 0.6rem !default;
+$font-size-sm: 0.8rem !default;
 
 $h1-font-size: 2.0rem !default;
 $h2-font-size: 1.8rem !default;

@@ -1,16 +1,23 @@
-// Always use fira code
-@import url(https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.206/distr/fira_code.css);
+@font-face{
+  font-family: 'JetBrains Mono';
+  src: url('https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/web/eot/JetBrainsMono-Regular.eot') format('embedded-opentype'),
+  url('https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/web/woff2/JetBrainsMono-Regular.woff2') format('woff2'),
+  url('https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/web/woff/JetBrainsMono-Regular.woff') format('woff'),
+  url('https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/ttf/JetBrainsMono-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
-$font-family-sans-serif: "Fira Code", "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+$font-family-sans-serif: "JetBrains Mono", "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
 
-//@import "nautilus/variables";
-@import "~bootswatch/dist/slate/variables";
+@import "nautilus/variables";
+//@import "~bootswatch/dist/slate/variables";
 
 @import "~bootstrap/scss/bootstrap";
 
-//@import "nautilus/bootswatch";
-@import "~bootswatch/dist/slate/bootswatch";
+@import "nautilus/bootswatch";
+//@import "~bootswatch/dist/slate/bootswatch";
 
-//@import "nautilus/highchart";
+@import "nautilus/highchart";
 //@import '~highcharts/css/highcharts.scss';
 

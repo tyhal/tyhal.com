@@ -26,7 +26,8 @@ class Basics extends Component {
               align='right'
               className='rounded-circle'
               alt='profile'
-              style={{ backgroundColor: '#515960' }}
+              style={{ backgroundColor: '#f8f8f2' }}
+              // style={{ backgroundColor: '#515960' }}
               width={180}
               height={180}
               src={this.props.basics.bitmoji}
