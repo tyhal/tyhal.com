@@ -8,9 +8,9 @@
   "dependencies": {
     "bootstrap": "4.4.1",
     "bootswatch": "4.4.1",
-    "highcharts": "8.0.1",
+    "highcharts": "8.0.2",
     "highcharts-react-official": "3.0.0",
-    "npm": "6.14.1",
+    "npm": "6.14.2",
     "react": "16.13.0",
     "react-country-flag": "2.0.1",
     "react-dom": "16.13.0",
