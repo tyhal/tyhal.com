@@ -9,6 +9,7 @@
 }
 
 $font-family-sans-serif: "JetBrains Mono", "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+$font-family-monospace: $font-family-sans-serif !default;
 
 @import "nautilus/variables";
 //@import "~bootswatch/dist/slate/variables";

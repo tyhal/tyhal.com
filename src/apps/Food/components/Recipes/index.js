@@ -24,10 +24,10 @@ class Recipes extends Component {
     return (
       <TopLevelCard>
         <CardHeader>
-          <CardTitle>Snack Overflow</CardTitle><span role='img' />🍜
+          <CardTitle>Snack Overflow <span role='img' />🍜</CardTitle>
         </CardHeader>
         <CardBody>
-          <CardHeader>Hosted Here</CardHeader>
+          <h6>Hosted Here</h6>
           <ListGroup>
             {Object.keys(this.props.recipes).map(
               recipe =>
@@ -37,7 +37,8 @@ class Recipes extends Component {
                   </Link>)
             )}
           </ListGroup>
-          <CardHeader>Linked from elsewhere</CardHeader>
+          <br />
+          <h6>Linked from elsewhere</h6>
           <ListGroup>
             {Object.keys(links).map(
               recipe =>

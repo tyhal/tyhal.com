@@ -1,25 +1,28 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import './gencss/style/main.css'
+import { Container } from 'reactstrap'
+import { HashRouter, Route, Switch } from 'react-router-dom'
 
 import NavBar from './components/NavBar'
-import Footer from './components/Footer'
 
-import Main from './apps/Main'
+import SimpleIntro from './apps/SimpleIntro'
 import NotFound from './apps/NotFound'
 import Info from './apps/Info'
 import Food from './apps/Food'
-import { HashRouter, Route, Switch } from 'react-router-dom'
+import TodoList from './apps/TodoList'
+
+import './gencss/style/main.css'
 
 import resume from './resource/info.json'
-import { Container } from 'reactstrap'
+
 // import Graph from './apps/Charts'
 
 const Root = (props) => {
   const routes = [
-    { path: '/home/', component: Main },
+    { path: '/home/', component: SimpleIntro },
     // path='/graph/' component={Graph}
     { path: '/food/', component: Food },
+    { path: '/todo/', component: TodoList },
     { path: '/info/', component: Info },
     { path: '*', component: NotFound }
   ]
@@ -36,10 +39,6 @@ const Root = (props) => {
           {routes.map(r => <Route key={r.path} path={r.path} component={r.component} />)}
         </Switch>
       </Container>
-      <Footer
-        website={resume.basics.website}
-        name={resume.basics.name}
-      />
     </HashRouter>
   )
 }

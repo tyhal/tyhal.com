@@ -23,7 +23,7 @@ class Info extends Component {
       <div>
         <Row>
           <Col>
-            <Jumbotron>
+            <Jumbotron className='shadow'>
               <h1>{info.basics.name}</h1>
               <h4>{info.basics.label}</h4>
             </Jumbotron>

@@ -198,3 +198,13 @@ th {
 .breadcrumb {
   margin: 30px 0px 0px 0px;
 }
+
+// Mono Font  ======================================================================
+
+.text-monospace {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: .5rem;
+  font-size: $h6-font-size;
+  color: $white;
+}

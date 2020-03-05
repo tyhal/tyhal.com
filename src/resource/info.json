@@ -132,7 +132,7 @@
         "Solutions Design"
       ],
       "level": "Advanced",
-      "name": "Software Development"
+      "name": "Systems Programming"
     },
     {
       "keywords": [
@@ -142,7 +142,7 @@
         "Development Lead"
       ],
       "level": "Intermediate",
-      "name": "Management/Leadership"
+      "name": "Leadership + Management"
     },
     {
       "keywords": [
@@ -155,7 +155,7 @@
         "Hosting"
       ],
       "level": "Intermediate",
-      "name": "Web Development"
+      "name": "Web Technologies"
     },
     {
       "keywords": [
@@ -163,11 +163,11 @@
         "Block",
         "HDFS",
         "Ceph",
-        "RAID",
+        "GPU RAID",
         "Systems Design"
       ],
       "level": "Intermediate",
-      "name": "Storage"
+      "name": "Software Defined Storage"
     }
   ],
   "volunteer": [],

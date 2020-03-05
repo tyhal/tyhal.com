@@ -4,7 +4,7 @@ import { CardBody, CardHeader, CardText, CardTitle, ListGroup, ListGroupItem } f
 import TopCard from '../../../../components/TopLevelCard'
 import ReactCountryFlag from 'react-country-flag'
 import info from '../../../../resource/info.json'
-import Social from '../../../Main/components/Social'
+import Social from '../../../SimpleIntro/components/Social'
 
 class Contacts extends Component {
   render () {

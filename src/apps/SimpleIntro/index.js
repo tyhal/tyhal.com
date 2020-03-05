@@ -1,10 +1,13 @@
-import TopCard from '../../../../components/TopLevelCard'
+import TopCard from '../../components/TopLevelCard'
 import { CardBody, CardHeader, CardSubtitle, CardText, CardTitle } from 'reactstrap'
-import Social from '../Social'
+import Social from './components/Social'
 import React, { Component } from 'react'
+import info from '../../resource/info.json'
 
 class SimpleIntro extends Component {
   render () {
+    const basics = info.basics
+    const skills = info.skills
     return (
 
       <TopCard>
@@ -14,29 +17,28 @@ class SimpleIntro extends Component {
             className='rounded-circle mt-4'
             alt='profile'
             style={{ backgroundColor: '#f8f8f2' }}
-            // style={{ backgroundColor: '#515960' }}
             width={100}
             height={100}
-            src={this.props.basics.bitmoji}
+            src={basics.bitmoji}
           />
           <CardTitle>
-            <h3>
-              {this.props.basics.label}
-            </h3>
+            <h2>
+              {basics.name}
+            </h2>
           </CardTitle>
           <CardSubtitle>
-            {this.props.basics.short_summary}
+            {basics.label} - {basics.short_summary}
           </CardSubtitle>
           <br />
           {
-            this.props.basics.profiles.map(
+            basics.profiles.map(
               soc => <Social className='mx-4' key={soc.network} data={soc} />)
           }
 
         </CardHeader>
         <CardBody className='bg-dark'>
           <CardText>
-            {this.props.skills.map(skill => <h6 key={skill.name}>{skill.name}</h6>)}
+            {skills.map(skill => <div className='text-monospace' key={skill.name}>::{skill.name}</div>)}
           </CardText>
         </CardBody>
       </TopCard>)
