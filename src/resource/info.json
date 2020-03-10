@@ -157,7 +157,7 @@
         "React",
         "Bootstrap",
         "Javascript",
-        "Nginx",
+        "Nginx"
       ],
       "level": "Intermediate",
       "name": "Web Technologies"
@@ -180,8 +180,8 @@
     {
       "company": "Nyriad",
       "highlights": [
-"Development Lead for LUCE, a containerized GPU data-science stack for Scion ( NZ crown research institute ) to process LiDAR data", 
-"Presentation paper for the LUCE stack: https://www.slideshare.net/slideshow/embed_code/key/LpWNUVquEE8B5A", 
+        "Development Lead for LUCE, a containerized GPU data-science stack for Scion ( NZ crown research institute ) to process LiDAR data", 
+        "Presentation paper for the LUCE stack: https://www.slideshare.net/slideshow/embed_code/key/LpWNUVquEE8B5A", 
         "Developed internal tools for automation, build processes and code static analysis",
         "Implemented the C++ Packaging system and management of Cuda libaries using Conan",
         "Part of product management; working on strategy, feature definition, road-mapping and release process",
