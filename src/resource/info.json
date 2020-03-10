@@ -5,6 +5,18 @@
       "date": "2014-11-01",
       "summary": "Received the scholarship for being amongst the top 10 Computer Science exam candidates, Allowing me to enter University a year earlier",
       "title": "2014 Computer Science Scholarship"
+    },
+    {
+      "awarder": "Nyriad LTD",
+      "date": "2018-05-01",
+      "summary": "An individual that displays flexibility and adaptability under pressure. \"We choose to constantly evolve and adapt!\" ",
+      "title": "Nyriad \"Perpetual\" Award"
+    },
+    {
+      "awarder": "Matthew Simmons (CEO) and Alex St. John (CTO)",
+      "date": "2018-05-01",
+      "summary": "For contribution to a production-ready release.",
+      "title": "Nyriad \"Ship It\" Award "
     }
   ],
   "basics": {
@@ -98,15 +110,13 @@
         "Jenkins",
         "Continuous Delivery",
         "Package Management",
-        "Distributed Systems",
         "Ansible",
         "High Availability",
-        "Google Cloud Platform",
-        "Amazon Web Services",
+        "GCP",
+        "AWS",
         "Virtualization",
         "GPU Workloads",
         "Prometheus",
-        "ELK Stack",
         "Docker",
         "Networking"
       ],
@@ -115,20 +125,17 @@
     },
     {
       "keywords": [
-        "C++",
         "Go",
-        "Shell",
         "Python",
+        "Shell",
+        "C++",
         "Java",
         "Linux",
         "ARM",
         "Jupyter",
         "Git",
-        "Apache Spark",
-        "Metaheuristics",
         "Security Scanning",
         "Static Analysis",
-        "JetBrains Tools",
         "Solutions Design"
       ],
       "level": "Advanced",
@@ -136,10 +143,11 @@
     },
     {
       "keywords": [
-        "Aha! Product Management",
+        "Product Management",
         "Jira",
         "Project Management",
-        "Development Lead"
+        "Agile Methodologies",
+        "Development Leadership"
       ],
       "level": "Intermediate",
       "name": "Leadership + Management"
@@ -149,10 +157,7 @@
         "React",
         "Bootstrap",
         "Javascript",
-        "MongoDB",
-        "SQL",
         "Nginx",
-        "Hosting"
       ],
       "level": "Intermediate",
       "name": "Web Technologies"
@@ -175,8 +180,10 @@
     {
       "company": "Nyriad",
       "highlights": [
-        "Development Lead for LUCE, a containerized GPU data-science stack for Scion to process its New Zealand LiDAR data",
-        "Presentation paper for the LUCE stack, Where I am referenced: https://www.slideshare.net/slideshow/embed_code/key/LpWNUVquEE8B5A",
+"Development Lead for LUCE, a containerized GPU data-science stack for Scion ( NZ crown research institute ) to process LiDAR data", 
+"Presentation paper for the LUCE stack: https://www.slideshare.net/slideshow/embed_code/key/LpWNUVquEE8B5A", 
+        "Developed internal tools for automation, build processes and code static analysis",
+        "Implemented the C++ Packaging system and management of Cuda libaries using Conan",
         "Part of product management; working on strategy, feature definition, road-mapping and release process",
         "Collaborated with external technology leaders and customers in R&D projects",
         "Directed release pipelines for components and products",
@@ -184,9 +191,7 @@
         "Developed infrastructure projects requiring configuration as code and custom Ansible modules",
         "Created and managed Kubernetes clusters on AWS using Terraform and Baremetal using Rancher",
         "Experience with Nvidia K1, X1, and X2 ARM based development kits",
-        "Implemented the C++ Packaging system and management of Cuda libaries using Conan",
-        "Developed internal dashboards for metrics and tracking",
-        "Developed internal tools for automation, build processes and code static analysis"
+        "Developed internal dashboards for metrics and tracking"
       ],
       "position": "Software Developer, Development Lead, DevOps Consultant, Sales Engineer",
       "startDate": "2014-09-12",
