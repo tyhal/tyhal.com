@@ -17,7 +17,7 @@ RUN npm run build
 
 # New image layer so we don't put our deps folder into prod container
 
-FROM nginx:1.17.10-alpine
+FROM nginx:1.19.1-alpine
 
 LABEL maintainer="Tyler Hale <t.w.hale32@gmail.com>"
 
