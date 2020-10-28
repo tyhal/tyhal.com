@@ -48,7 +48,7 @@ class Info extends Component {
                       {wk.company}
                     </CardTitle>
                     <CardSubtitle>
-                      {wk.startDate} - Present
+                      {wk.startDate} -> {wk.endData}
                     </CardSubtitle>
                   </CardHeader>
                   <CardBody>
@@ -69,31 +69,36 @@ class Info extends Component {
             )}
           </Col>
           <Col>
-            {info.education.map(edu =>
-              <TopCard key={edu.institution}>
-                <CardHeader>
-                  <CardTitle>
-                    <h3>Education</h3>
-                    {edu.institution}
-                  </CardTitle>
-                  <CardSubtitle>
-                    {edu.startDate} - {edu.endDate}
-                  </CardSubtitle>
-
-                </CardHeader>
-                <CardBody>
-                  <CardTitle>
-                    {edu.studyType} in {edu.area}
-                  </CardTitle>
-                  <ListGroup>
-                    {edu.courses.map(crs =>
-                      <ListGroupItem key={crs}>
-                        {crs}
-                      </ListGroupItem>)}
-                  </ListGroup>
-                </CardBody>
-              </TopCard>
-            )}
+            <TopCard>
+              <CardHeader>
+                <CardTitle>
+                  <h3>Education</h3>
+                </CardTitle>
+              </CardHeader>
+              {info.education.map(edu =>
+                <div key={edu.institution}>
+                  <CardHeader>
+                    <CardTitle>
+                      {edu.institution}
+                    </CardTitle>
+                    <CardSubtitle>
+                      {edu.startDate} -> {edu.endDate}
+                    </CardSubtitle>
+                  </CardHeader>
+                  <CardBody>
+                    <CardTitle>
+                      {edu.studyType}{(edu.area !== '') ? ', ' + edu.area : null}
+                    </CardTitle>
+                    <ListGroup>
+                      {edu.courses.map(crs =>
+                        <ListGroupItem key={crs}>
+                          {crs}
+                        </ListGroupItem>)}
+                    </ListGroup>
+                  </CardBody>
+                </div>
+              )}
+            </TopCard>
           </Col>
         </Row>
         <Row>

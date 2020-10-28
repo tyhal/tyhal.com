@@ -14,7 +14,7 @@ terraform {
 }
 
 resource "aws_s3_bucket" "website" {
-  bucket = "${var.domain_name}"
+  bucket = var.domain_name
   acl    = "public-read"
 
   website {
@@ -34,12 +34,12 @@ EOF
   }
 
   tags = {
-    project = "${var.domain_name}"
+    project = var.domain_name
   }
 }
 
 resource "aws_s3_bucket_policy" "website" {
-  bucket = "${aws_s3_bucket.website.id}"
+  bucket = aws_s3_bucket.website.id
 
   policy = <<POLICY
 {
@@ -58,17 +58,17 @@ POLICY
 }
 
 resource "aws_route53_zone" "site" {
-  name = "${var.domain_name}"
+  name = var.domain_name
 }
 
 resource "aws_route53_record" "siteroot" {
-  zone_id = "${aws_route53_zone.site.zone_id}"
-  name    = "${var.domain_name}"
+  zone_id = aws_route53_zone.site.zone_id
+  name    = var.domain_name
   type    = "A"
 
   alias {
-    zone_id                = "${aws_s3_bucket.website.hosted_zone_id}"
-    name                   = "${aws_s3_bucket.website.website_domain}"
+    zone_id                = aws_s3_bucket.website.hosted_zone_id
+    name                   = aws_s3_bucket.website.website_domain
     evaluate_target_health = false
   }
 }

@@ -1,9 +1,8 @@
 #!/bin/sh
 set -e
 
-curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
-sudo apt-get install -y nodejs
+snap install node --classic --channel=15/stable
 
-wget https://releases.hashicorp.com/terraform/0.12.10/terraform_0.12.10_linux_amd64.zip -O /tmp/terr.zip
+wget https://releases.hashicorp.com/terraform/0.13.5/terraform_0.13.5_linux_amd64.zip -O /tmp/terr.zip
 unzip /tmp/terr.zip -d /tmp/terraform
 sudo mv /tmp/terraform/terraform /usr/local/bin

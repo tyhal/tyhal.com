@@ -9,7 +9,7 @@ A JSON Driven Static Website on AWS
 
 Costs me $0.50 (NZD) a month to host.
 
-* * *
+***
 
 ## Run Me
 
@@ -35,7 +35,7 @@ You will need to go into `deploy/static-website.tf` and change the bucket and ke
     script/deploy
 ```
 
-* * *
+***
 
 ## Tech Debt
 
