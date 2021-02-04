@@ -16,7 +16,7 @@
     "react-dom": "16.14.0",
     "react-json-view": "1.19.1",
     "react-router-dom": "5.2.0",
-    "react-scripts": "4.0.0",
+    "react-scripts": "4.0.2",
     "react-social-icons": "4.1.0",
     "reactstrap": "8.7.1"
   },
