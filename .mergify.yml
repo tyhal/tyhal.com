@@ -34,7 +34,7 @@ pull_request_rules:
   - name: automatic merge for Tyhal pull requests
     conditions:
       - author=tyhal
-      - status-success=ci/dockercloud
+      - status-success=ci/dockercloud-stage
       - "status-failure!=LGTM analysis: JavaScript"
     actions:
       merge:
