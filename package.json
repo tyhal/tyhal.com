@@ -18,7 +18,7 @@
     "react-router-dom": "5.2.0",
     "react-scripts": "4.0.3",
     "react-social-icons": "5.0.0",
-    "reactstrap": "8.7.1"
+    "reactstrap": "8.9.0"
   },
   "devDependencies": {
     "node-sass-chokidar": "1.5.0",
