@@ -2,7 +2,7 @@ pull_request_rules:
   - name: automatic merge for Dependabot pull requests
     conditions:
       - author=dependabot[bot]
-      - status-success=ci/dockercloud
+      - status-success=ci/dockercloud-stage
       - "status-failure!=LGTM analysis: JavaScript"
     actions:
       merge:
@@ -10,7 +10,7 @@ pull_request_rules:
   - name: automatic merge for Dependabot Preview pull requests
     conditions:
       - author=dependabot-preview[bot]
-      - status-success=ci/dockercloud
+      - status-success=ci/dockercloud-stage
       - "status-failure!=LGTM analysis: JavaScript"
     actions:
       merge:
@@ -18,7 +18,7 @@ pull_request_rules:
   - name: automatic merge for Renovate pull requests
     conditions:
       - author=renovate[bot]
-      - status-success=ci/dockercloud
+      - status-success=ci/dockercloud-stage
       - "status-failure!=LGTM analysis: JavaScript"
     actions:
       merge:
@@ -26,7 +26,7 @@ pull_request_rules:
   - name: automatic merge for Synk pull requests
     conditions:
       - author=snyk-bot[bot]
-      - status-success=ci/dockercloud
+      - status-success=ci/dockercloud-stage
       - "status-failure!=LGTM analysis: JavaScript"
     actions:
       merge:
