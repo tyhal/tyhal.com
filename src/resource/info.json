@@ -21,17 +21,17 @@
   ],
   "basics": {
     "bitmoji": "https://render.bitstrips.com/v2/cpanel/e4f91d37-026a-44d0-91ea-b26cfdaa34a7-2b3e9ea9-00a9-46eb-a2a4-78a44de4f18a-v1.png?transparent=1&palette=0",
-    "email": "t.w.hale32@gmail.com",
+    "email": "tyhal.eu@gmail.com",
     "label": "Software Engineer",
     "location": {
       "address": "",
-      "city": "Hamilton",
-      "countryCode": "NZ",
+      "city": "London",
+      "countryCode": "UK",
       "postalCode": "",
-      "region": "Waikato"
+      "region": ""
     },
     "name": "Tyler Hale",
-    "phone": "+64 224253486",
+    "phone": "+44 7432258913",
     "picture": "",
     "profiles": [
       {
@@ -46,12 +46,12 @@
       },
       {
         "network": "Twitter",
-        "url": "https://twitter.com/tyhal_",
-        "username": "@tyhal_"
+        "url": "https://twitter.com/tyhalnz",
+        "username": "@tyhalnz"
       }
     ],
     "short_summary": "And Proudly Ashamed Generalist",
-    "summary": "Part of building a Garage Startup while simultaneously going to the University • Developer who likes to explore different areas of building products • Typically found trying out automated and faster ways to improve: CI/CD, machine infrastructure, scalability and anything else that causes developer friction • Actively jumping into new and existing projects which require leadership, management, and problem solving • Heavily involved in building infrastructure that supports Nvidia GPUs, including effective storage and data science stacks that use them • Follower of the Twelve-Factor App and the CNCF for Dev-Ops practices",
+    "summary": "Part of building a Garage Startup while simultaneously going to the University • Developer who likes to explore different areas of building products • Typically found trying out automated and faster ways to improve: CI/CD, machine infrastructure, scalability and anything else that causes developer friction • Actively jumping into new and existing projects which require leadership, management, and problem solving • Heavily involved in building infrastructure that supports Nvidia GPUs, including effective storage and data science stacks that use them • Follower of the CNCF and Dev-Ops practices",
     "website": "http://tyhal.com"
   },
   "education": [
@@ -77,46 +77,22 @@
       "studyType": "Bachelor of Science"
     },
     {
-      "area": "",
+      "area": "Kubernetes",
       "courses": [
-        "Core Concepts",
-        "Configuration",
-        "Multi-Container Pods",
-        "Observability",
-        "Pod Design",
-        "Services & Networking",
-        "State Persistence"
+        "CKA: Certified Kubernetes Administrator"
       ],
-      "endDate": "2020-05-01",
+      "endDate": "2020-05-24",
       "gpa": "",
-      "institution": "CNCF",
-      "startDate": "2019-01-01",
-      "studyType": "Certified Kubernetes Administrator"
+      "institution": "The Linux Foundation",
+      "startDate": "2015-01-01",
+      "studyType": "Certification"
     }
   ],
   "interests": [],
   "meta": {
     "theme": "kendall"
   },
-  "projects": [
-    {
-      "description": "A Containerized GPU Data-Science stack for Scion to process its New Zealand LiDAR Data ",
-      "entity": "Scion",
-      "keywords": [
-        "LiDAR",
-        "Spark",
-        "Jupyter",
-        "HDFS",
-        "Data Science"
-      ],
-      "name": "LUCE",
-      "roles": [
-        "Development Lead"
-      ],
-      "type": "application",
-      "url": "https://www.slideshare.net/slideshow/embed_code/key/LpWNUVquEE8B5A"
-    }
-  ],
+  "projects": [],
   "publications": [],
   "references": [],
   "skills": [
@@ -196,10 +172,8 @@
   "work": [
     {
       "company": "Nyriad",
-      "endData": "2020-08-21",
       "highlights": [
-        "Development Lead for LUCE, a containerized GPU data-science stack for Scion ( NZ crown research institute ) to process LiDAR data",
-        "Presentation paper for the LUCE stack: https://www.slideshare.net/slideshow/embed_code/key/LpWNUVquEE8B5A",
+        "Development Lead for LUCE, a containerized GPU data-science stack for Scion ( NZ crown research institute ) to process LiDAR data", 
         "Developed internal tools for automation, build processes and code static analysis",
         "Implemented the C++ Packaging system and management of Cuda libaries using Conan",
         "Part of product management; working on strategy, feature definition, road-mapping and release process",
@@ -209,10 +183,12 @@
         "Developed infrastructure projects requiring configuration as code and custom Ansible modules",
         "Created and managed Kubernetes clusters on AWS using Terraform and Baremetal using Rancher",
         "Experience with Nvidia K1, X1, and X2 ARM based development kits",
+        "Developed a prototype K8s CSI Driver for our block device product",
         "Developed internal dashboards for metrics and tracking"
       ],
       "position": "Software Developer, Development Lead, DevOps Consultant, Sales Engineer",
       "startDate": "2014-09-12",
+      "endDate":   "2020-09-01",
       "summary": "One of the first to join, seeing the company grow from its first customer to multiple",
       "website": "https://nyriad.com"
     }
