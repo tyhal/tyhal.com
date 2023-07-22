@@ -1,8 +1,0 @@
-#!/bin/sh
-set -e
-
-snap install node --classic --channel=15/stable
-
-wget https://releases.hashicorp.com/terraform/0.13.5/terraform_0.13.5_linux_amd64.zip -O /tmp/terr.zip
-unzip /tmp/terr.zip -d /tmp/terraform
-sudo mv /tmp/terraform/terraform /usr/local/bin
