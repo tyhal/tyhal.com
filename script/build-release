@@ -1,0 +1,8 @@
+#!/bin/sh
+set -ex
+
+cd "$(dirname "$0")/.."
+
+./gradlew jsBrowserProductionWebpack
+cp build/kotlin-webpack/js/productionExecutable/* ../tyhal.github.io
+cp build/processedResources/js/main/ ../tyhal.github.io

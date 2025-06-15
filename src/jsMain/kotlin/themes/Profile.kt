@@ -7,6 +7,6 @@ object Profile {
     val skills = listOf("DevOps", "Systems Programming", "Leadership", "Web Technologies", "Software Defined Storage")
     val social = mapOf(
         "linkedin" to "https://www.linkedin.com/in/tyhal/",
-        "github" to "https://github.com/tyhal"
+        "github" to "https://github.com/tyhal",
     )
 }
