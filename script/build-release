@@ -6,17 +6,16 @@ cd "$(dirname "$0")/.."
 pnpm run build
 
 if [ -d release ]; then
-  cd release
-  git rm -rf .
-  git clean -fdx
-  cp -r ../dist/* .
-  echo "tyhal.com" > CNAME
-  touch .nojekyll # disable jekyll so _astro assets aren't ignored
-  git add .
-  git commit -m "Publish"
-  git push origin main
+	cd release
+	git rm -rf .
+	git clean -fdx
+	cp -r ../dist/* .
+	echo "tyhal.com" >CNAME
+	touch .nojekyll # disable jekyll so _astro assets aren't ignored
+	git add .
+	git commit -m "Publish"
+	git push origin main
 else
-  echo "no 'release' repo to push to"
-  exit 1
+	echo "no 'release' repo to push to"
+	exit 1
 fi
-

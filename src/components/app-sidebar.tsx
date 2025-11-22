@@ -1,12 +1,8 @@
-import * as React from "react"
-import {
-  Compass,
-  Github, Linkedin,
-  SquareTerminal,
-} from "lucide-react"
+import * as React from "react";
+import { Compass, Github, Linkedin, SquareTerminal } from "lucide-react";
 
-import { NavProjects } from "@/components/nav-projects"
-import { NavFooter } from "@/components/nav-footer.tsx"
+import { NavProjects } from "@/components/nav-projects";
+import { NavFooter } from "@/components/nav-footer.tsx";
 import {
   Sidebar,
   SidebarContent,
@@ -15,9 +11,9 @@ import {
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
-} from "@/components/ui/sidebar"
-import {NavSocials} from "@/components/nav-social.tsx";
-import {Profile} from "@/data/profile.ts";
+} from "@/components/ui/sidebar";
+import { NavSocials } from "@/components/nav-social.tsx";
+import { Profile } from "@/data/profile.ts";
 
 const data = {
   // no user data
@@ -59,16 +55,16 @@ const data = {
       name: "tyhal",
       url: Profile.social.linkedin,
       icon: Linkedin,
-    }
+    },
   ],
   projects: [
     {
       name: "crie.",
       url: "https://github.com/tyhal/crie",
       icon: SquareTerminal,
-    }
+    },
   ],
-}
+};
 
 export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
   return (
@@ -105,5 +101,5 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
         {/*<NavUser user={data.user} />*/}
       </SidebarFooter>
     </Sidebar>
-  )
+  );
 }
