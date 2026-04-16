@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Compass, Github, Linkedin, SquareTerminal } from "lucide-react";
+import { Briefcase, Compass, GitFork, SquareTerminal } from "lucide-react";
 
 import { NavProjects } from "@/components/nav-projects";
 import { NavFooter } from "@/components/nav-footer.tsx";
@@ -47,14 +47,14 @@ const data = {
   ],
   socials: [
     {
-      name: "tyhal",
+      name: "Github",
       url: Profile.social.github,
-      icon: Github,
+      icon: GitFork,
     },
     {
-      name: "tyhal",
+      name: "LinkedIn",
       url: Profile.social.linkedin,
-      icon: Linkedin,
+      icon: Briefcase,
     },
   ],
   projects: [

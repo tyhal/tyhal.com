@@ -3,6 +3,7 @@ set -ex
 
 cd "$(dirname "$0")/.."
 
+pnpm install --frozen-lockfile
 pnpm run build
 
 if [ -d release ]; then
