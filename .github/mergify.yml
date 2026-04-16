@@ -1,0 +1,34 @@
+merge_queue:
+ max_parallel_checks: 1
+queue_rules:
+ - name: default
+   batch_size: 1
+   queue_conditions:
+    - status-success=tyhal-test
+    - status-success=crie-test
+    - status-success=SonarCloud Code Analysis
+    - status-success=GitGuardian Security Checks
+pull_request_rules:
+ - name: automatic merge for Dependabot pull requests
+   conditions:
+    - base=master
+    - author~=^dependabot(|-preview)\[bot\]$
+   actions:
+    queue:
+     name: default
+ - name: automatic merge for Renovate pull requests
+   conditions:
+    - base=master
+    - author=renovate[bot]
+   actions:
+    queue:
+     name: default
+ - name: automatic merge for Synk pull requests
+   conditions:
+    - base=master
+    - title~=^\[Snyk\]
+    - head~=^snyk-fix
+    - check-success~=^security/snyk
+   actions:
+    queue:
+     name: default
