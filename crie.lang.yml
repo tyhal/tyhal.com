@@ -1,16 +1,16 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/tyhal/crie/main/res/schema/lang.json
 languages:
   typescript:
-   match: [".tsx$",".ts$"]
-   fmt:
-    type: cli
-    exec:
-     bin: npx
-     start: ["prettier", "--write"]
+    match: [".tsx$", ".ts$"]
+    fmt:
+      type: cli
+      exec:
+        bin: npx
+        start: ["prettier", "--write"]
   astro:
-   match: [ ".astro$" ]
-   fmt:
-    type: cli
-    exec:
-     bin: npx
-     start: [ "prettier", "--write" ]
+    match: [".astro$"]
+    fmt:
+      type: cli
+      exec:
+        bin: npx
+        start: ["prettier", "--write"]

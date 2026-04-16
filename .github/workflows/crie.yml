@@ -1,11 +1,9 @@
 name: Crie
-
 on:
   push:
     branches: [master]
   pull_request:
     branches: [master]
-
 jobs:
   crie-test:
     runs-on: ubuntu-latest
@@ -13,7 +11,6 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-
       - name: Run crie all
         uses: tyhal/crie-action@283048b00daf6ce74442d38aa76e77f9472b581b # main
         with:
@@ -22,6 +19,5 @@ jobs:
           lint_passes: 'true'
           lint_git_diff: ${{ github.event_name == 'pull_request'  && 'true' || 'false' }}
           lint_git_target: ${{ github.event_name == 'pull_request' && format('origin/{0}', github.base_ref || github.ref_name) || '' }}
-
       - name: Ensure no diff
         run: git diff --exit-code
