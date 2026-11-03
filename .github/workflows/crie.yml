@@ -20,7 +20,7 @@ jobs:
           cache: pnpm
       - run: pnpm install --frozen-lockfile
       - name: Run crie all
-        uses: tyhal/crie-action@283048b00daf6ce74442d38aa76e77f9472b581b # main
+        uses: tyhal/crie-action@45b98c9d76cc2f106cfcea2282adb1cea07db834 # main
         with:
           command: lnt
           lint_continue: 'true'
